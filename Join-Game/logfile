@@ -1,0 +1,542 @@
+2024-02-05 17:37:34.240 PST [16018] LOG:  listening on IPv6 address "::1", port 4488
+2024-02-05 17:37:34.240 PST [16018] LOG:  listening on IPv4 address "127.0.0.1", port 4488
+2024-02-05 17:37:34.241 PST [16018] LOG:  listening on Unix socket "/tmp/.s.PGSQL.4488"
+2024-02-05 17:37:34.251 PST [16019] LOG:  database system was shut down at 2024-02-05 17:37:23 PST
+2024-02-05 17:37:34.253 PST [16018] LOG:  database system is ready to accept connections
+2024-02-05 17:39:04.595 PST [19686] ERROR:  syntax error at or near "create" at character 26
+2024-02-05 17:39:04.595 PST [19686] STATEMENT:  create database shrestaa
+	create database shrestaa;
+2024-02-05 17:45:06.721 PST [30447] ERROR:  could not open file "/data/bharghav-psql/data/1_gig_data/z1/professor.tbl" for reading: Permission denied
+2024-02-05 17:45:06.721 PST [30447] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-02-05 17:45:06.721 PST [30447] STATEMENT:  copy PROFESSOR FROM '/data/bharghav-psql/data/1_gig_data/z1/professor.tbl' WITH DELIMITER AS '|';
+2024-02-05 17:47:10.722 PST [30447] ERROR:  could not open file "/postgres/shrestaa-psql/data/professor.tbl" for reading: No such file or directory
+2024-02-05 17:47:10.722 PST [30447] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-02-05 17:47:10.722 PST [30447] STATEMENT:  copy PROFESSOR FROM '/postgres/shrestaa-psql/data/professor.tbl' WITH DELIMITER AS '|';
+2024-04-17 21:55:09.493 PDT [12969] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-17 21:55:09.493 PDT [12969] LOG:  listening on IPv6 address "::", port 5447
+2024-04-17 21:55:09.494 PDT [12969] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-17 21:55:09.501 PDT [12969] LOG:  redirecting log output to logging collector process
+2024-04-17 21:55:09.501 PDT [12969] HINT:  Future log output will appear in directory "log".
+2024-04-18 01:39:19.383 PDT [8169] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 01:39:19.383 PDT [8169] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 01:39:19.384 PDT [8169] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 01:39:19.390 PDT [8169] LOG:  redirecting log output to logging collector process
+2024-04-18 01:39:19.390 PDT [8169] HINT:  Future log output will appear in directory "log".
+2024-04-18 01:44:39.428 PDT [13525] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 01:44:39.428 PDT [13525] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 01:44:39.428 PDT [13525] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 01:44:39.434 PDT [13525] LOG:  redirecting log output to logging collector process
+2024-04-18 01:44:39.434 PDT [13525] HINT:  Future log output will appear in directory "log".
+2024-04-18 01:53:18.987 PDT [15938] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 01:53:18.987 PDT [15938] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 01:53:18.988 PDT [15938] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 01:53:18.994 PDT [15938] LOG:  redirecting log output to logging collector process
+2024-04-18 01:53:18.994 PDT [15938] HINT:  Future log output will appear in directory "log".
+2024-04-18 02:02:00.752 PDT [19523] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 02:02:00.753 PDT [19523] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 02:02:00.753 PDT [19523] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 02:02:00.760 PDT [19523] LOG:  redirecting log output to logging collector process
+2024-04-18 02:02:00.760 PDT [19523] HINT:  Future log output will appear in directory "log".
+2024-04-18 08:49:07.508 PDT [9263] FATAL:  lock file "postmaster.pid" already exists
+2024-04-18 08:49:07.508 PDT [9263] HINT:  Is another postmaster (PID 19523) running in data directory "/data/bharghav-psql/bandit/Join-Game/DemoDir"?
+2024-04-18 08:49:15.891 PDT [9300] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 08:49:15.891 PDT [9300] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 08:49:15.892 PDT [9300] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 08:49:15.897 PDT [9300] LOG:  redirecting log output to logging collector process
+2024-04-18 08:49:15.897 PDT [9300] HINT:  Future log output will appear in directory "log".
+2024-04-18 08:54:53.179 PDT [11332] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 08:54:53.179 PDT [11332] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 08:54:53.180 PDT [11332] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 08:54:53.186 PDT [11332] LOG:  redirecting log output to logging collector process
+2024-04-18 08:54:53.186 PDT [11332] HINT:  Future log output will appear in directory "log".
+2024-04-18 08:55:53.259 PDT [11479] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 08:55:53.259 PDT [11479] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 08:55:53.260 PDT [11479] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 08:55:53.265 PDT [11479] LOG:  redirecting log output to logging collector process
+2024-04-18 08:55:53.265 PDT [11479] HINT:  Future log output will appear in directory "log".
+2024-04-18 09:00:53.960 PDT [13385] FATAL:  lock file "postmaster.pid" already exists
+2024-04-18 09:00:53.960 PDT [13385] HINT:  Is another postmaster (PID 11479) running in data directory "/data/bharghav-psql/bandit/Join-Game/DemoDir"?
+2024-04-18 09:01:02.285 PDT [13435] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-04-18 09:01:02.285 PDT [13435] LOG:  listening on IPv6 address "::", port 5447
+2024-04-18 09:01:02.286 PDT [13435] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-04-18 09:01:02.292 PDT [13435] LOG:  redirecting log output to logging collector process
+2024-04-18 09:01:02.292 PDT [13435] HINT:  Future log output will appear in directory "log".
+2024-05-07 17:20:01.646 PDT [14565] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-05-07 17:20:01.646 PDT [14565] LOG:  listening on IPv6 address "::", port 5447
+2024-05-07 17:20:01.647 PDT [14565] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-05-07 17:20:01.654 PDT [14565] LOG:  redirecting log output to logging collector process
+2024-05-07 17:20:01.654 PDT [14565] HINT:  Future log output will appear in directory "log".
+2024-05-07 17:36:06.706 PDT [16024] LOG:  listening on IPv4 address "0.0.0.0", port 5447
+2024-05-07 17:36:06.706 PDT [16024] LOG:  listening on IPv6 address "::", port 5447
+2024-05-07 17:36:06.707 PDT [16024] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5447"
+2024-05-07 17:36:06.714 PDT [16024] LOG:  redirecting log output to logging collector process
+2024-05-07 17:36:06.714 PDT [16024] HINT:  Future log output will appear in directory "log".
+2024-05-28 22:55:22.105 PDT [3792810] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 22:55:22.105 PDT [3792810] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 22:55:22.111 PDT [3792810] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 22:55:22.141 PDT [3792811] LOG:  database system was shut down at 2024-05-28 22:54:19 PDT
+2024-05-28 22:55:22.156 PDT [3792810] LOG:  database system is ready to accept connections
+2024-05-28 22:55:48.169 PDT [3792810] LOG:  received fast shutdown request
+2024-05-28 22:55:48.170 PDT [3792810] LOG:  aborting any active transactions
+2024-05-28 22:55:48.171 PDT [3792810] LOG:  background worker "logical replication launcher" (PID 3792817) exited with exit code 1
+2024-05-28 22:55:48.172 PDT [3792812] LOG:  shutting down
+2024-05-28 22:55:48.214 PDT [3792810] LOG:  database system is shut down
+2024-05-28 22:57:09.205 PDT [3795355] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 22:57:09.205 PDT [3795355] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 22:57:09.209 PDT [3795355] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 22:57:09.239 PDT [3795356] LOG:  database system was shut down at 2024-05-28 22:55:48 PDT
+2024-05-28 22:57:09.251 PDT [3795355] LOG:  database system is ready to accept connections
+2024-05-28 22:57:27.512 PDT [3796078] FATAL:  database "test" does not exist
+2024-05-28 22:58:00.719 PDT [3796560] FATAL:  database "test1" does not exist
+2024-05-28 22:58:58.064 PDT [3797390] FATAL:  database "test1" does not exist
+2024-05-28 22:59:06.800 PDT [3797550] FATAL:  database "linyuya" does not exist
+2024-05-28 23:07:50.588 PDT [3795355] LOG:  received fast shutdown request
+2024-05-28 23:07:50.591 PDT [3795355] LOG:  aborting any active transactions
+2024-05-28 23:07:50.593 PDT [3795355] LOG:  background worker "logical replication launcher" (PID 3795362) exited with exit code 1
+2024-05-28 23:07:50.593 PDT [3795357] LOG:  shutting down
+2024-05-28 23:07:50.638 PDT [3795355] LOG:  database system is shut down
+2024-05-28 23:10:17.396 PDT [3812756] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 23:10:17.397 PDT [3812756] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 23:10:17.401 PDT [3812756] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 23:10:17.432 PDT [3812757] LOG:  database system was shut down at 2024-05-28 23:07:50 PDT
+2024-05-28 23:10:17.452 PDT [3812756] LOG:  database system is ready to accept connections
+2024-05-28 23:10:44.837 PDT [3812756] LOG:  received fast shutdown request
+2024-05-28 23:10:44.839 PDT [3812756] LOG:  aborting any active transactions
+2024-05-28 23:10:44.840 PDT [3812756] LOG:  background worker "logical replication launcher" (PID 3812763) exited with exit code 1
+2024-05-28 23:10:44.840 PDT [3812758] LOG:  shutting down
+2024-05-28 23:10:44.888 PDT [3812756] LOG:  database system is shut down
+2024-05-28 23:12:34.691 PDT [3821060] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 23:12:34.691 PDT [3821060] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 23:12:34.703 PDT [3821060] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 23:12:34.737 PDT [3821061] LOG:  database system was shut down at 2024-05-28 23:10:44 PDT
+2024-05-28 23:12:34.752 PDT [3821060] LOG:  database system is ready to accept connections
+2024-05-28 23:12:50.126 PDT [3821060] LOG:  received fast shutdown request
+2024-05-28 23:12:50.128 PDT [3821060] LOG:  aborting any active transactions
+2024-05-28 23:12:50.129 PDT [3821060] LOG:  background worker "logical replication launcher" (PID 3821067) exited with exit code 1
+2024-05-28 23:12:50.129 PDT [3821062] LOG:  shutting down
+2024-05-28 23:12:50.199 PDT [3821060] LOG:  database system is shut down
+2024-05-28 23:13:15.412 PDT [3822231] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 23:13:15.412 PDT [3822231] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 23:13:15.418 PDT [3822231] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 23:13:15.449 PDT [3822232] LOG:  database system was shut down at 2024-05-28 23:12:50 PDT
+2024-05-28 23:13:15.455 PDT [3822231] LOG:  database system is ready to accept connections
+2024-05-28 23:20:53.775 PDT [3822231] LOG:  received fast shutdown request
+2024-05-28 23:20:53.778 PDT [3822231] LOG:  aborting any active transactions
+2024-05-28 23:20:53.779 PDT [3822231] LOG:  background worker "logical replication launcher" (PID 3822238) exited with exit code 1
+2024-05-28 23:20:53.779 PDT [3822233] LOG:  shutting down
+2024-05-28 23:20:53.832 PDT [3822231] LOG:  database system is shut down
+2024-05-28 23:21:22.548 PDT [3829621] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 23:21:22.548 PDT [3829621] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 23:21:22.552 PDT [3829621] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 23:21:22.591 PDT [3829622] LOG:  database system was shut down at 2024-05-28 23:20:53 PDT
+2024-05-28 23:21:22.614 PDT [3829621] LOG:  database system is ready to accept connections
+2024-05-28 23:22:10.464 PDT [3829621] LOG:  received fast shutdown request
+2024-05-28 23:22:10.465 PDT [3829621] LOG:  aborting any active transactions
+2024-05-28 23:22:10.467 PDT [3829621] LOG:  background worker "logical replication launcher" (PID 3829628) exited with exit code 1
+2024-05-28 23:22:10.467 PDT [3829623] LOG:  shutting down
+2024-05-28 23:22:10.534 PDT [3829621] LOG:  database system is shut down
+2024-05-28 23:26:35.471 PDT [3833950] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 23:26:35.471 PDT [3833950] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 23:26:35.475 PDT [3833950] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 23:26:35.510 PDT [3833951] LOG:  database system was shut down at 2024-05-28 23:22:10 PDT
+2024-05-28 23:26:35.530 PDT [3833950] LOG:  database system is ready to accept connections
+2024-05-28 23:27:27.189 PDT [3833950] LOG:  received fast shutdown request
+2024-05-28 23:27:27.191 PDT [3833950] LOG:  aborting any active transactions
+2024-05-28 23:27:27.192 PDT [3833950] LOG:  background worker "logical replication launcher" (PID 3833957) exited with exit code 1
+2024-05-28 23:27:27.192 PDT [3833952] LOG:  shutting down
+2024-05-28 23:27:27.245 PDT [3833950] LOG:  database system is shut down
+2024-05-28 23:28:38.673 PDT [3836650] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 23:28:38.673 PDT [3836650] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 23:28:38.676 PDT [3836650] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 23:28:38.709 PDT [3836656] LOG:  database system was shut down at 2024-05-28 23:27:27 PDT
+2024-05-28 23:28:38.723 PDT [3836650] LOG:  database system is ready to accept connections
+2024-05-28 23:33:53.379 PDT [3836650] LOG:  received fast shutdown request
+2024-05-28 23:33:53.381 PDT [3836650] LOG:  aborting any active transactions
+2024-05-28 23:33:53.382 PDT [3836650] LOG:  background worker "logical replication launcher" (PID 3836662) exited with exit code 1
+2024-05-28 23:33:53.382 PDT [3836657] LOG:  shutting down
+2024-05-28 23:33:53.420 PDT [3836650] LOG:  database system is shut down
+2024-05-28 23:34:24.528 PDT [3841503] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-28 23:34:24.528 PDT [3841503] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-28 23:34:24.532 PDT [3841503] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-28 23:34:24.563 PDT [3841505] LOG:  database system was shut down at 2024-05-28 23:33:53 PDT
+2024-05-28 23:34:24.575 PDT [3841503] LOG:  database system is ready to accept connections
+2024-05-28 23:34:48.437 PDT [3841898] FATAL:  database "test21" does not exist
+2024-05-28 23:39:27.223 PDT [3841918] ERROR:  missing data for column "l_returnflag"
+2024-05-28 23:39:27.223 PDT [3841918] CONTEXT:  COPY lineitem_s0_5_z2, line 126677: "126212|4581|836|3|37|54966.46|0.09|0."
+2024-05-28 23:39:27.223 PDT [3841918] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z1_5/lineitem.tbl' WITH DELIMITER AS '|';
+2024-05-28 23:39:28.992 PDT [3841918] ERROR:  missing data for column "o_clerk"
+2024-05-28 23:39:28.992 PDT [3841918] CONTEXT:  COPY orders_s0_5_z2, line 138730: "554914|1037|F|103685.30|1995-01-03|4-NOT SPECIFIE"
+2024-05-28 23:39:28.992 PDT [3841918] STATEMENT:  copy orders_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z1_5/order.tbl' WITH DELIMITER AS '|';
+2024-05-28 23:41:39.333 PDT [3846711] ERROR:  syntax error at or near "database" at character 8
+2024-05-28 23:41:39.333 PDT [3846711] STATEMENT:  delete database test2
+	;
+2024-05-28 23:41:47.790 PDT [3846711] ERROR:  syntax error at or near "database" at character 8
+2024-05-28 23:41:47.790 PDT [3846711] STATEMENT:  delete database test2;
+2024-05-28 23:42:00.479 PDT [3846711] ERROR:  syntax error at or near "remove" at character 1
+2024-05-28 23:42:00.479 PDT [3846711] STATEMENT:  remove database test2;
+2024-05-28 23:42:32.415 PDT [3846711] ERROR:  cannot drop the currently open database
+2024-05-28 23:42:32.415 PDT [3846711] STATEMENT:  DROP DATABASE test2;
+2024-05-28 23:43:11.633 PDT [3848431] FATAL:  database "zq" does not exist
+2024-05-28 23:46:01.881 PDT [3851050] ERROR:  missing data for column "l_returnflag"
+2024-05-28 23:46:01.881 PDT [3851050] CONTEXT:  COPY lineitem_s0_5_z2, line 126677: "126212|4581|836|3|37|54966.46|0.09|0."
+2024-05-28 23:46:01.881 PDT [3851050] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z1/lineitem.tbl' WITH DELIMITER AS '|';
+2024-05-28 23:46:38.300 PDT [3851050] ERROR:  missing data for column "l_returnflag"
+2024-05-28 23:46:38.300 PDT [3851050] CONTEXT:  COPY lineitem_s0_5_z2, line 126677: "126212|4581|836|3|37|54966.46|0.09|0."
+2024-05-28 23:46:38.300 PDT [3851050] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z1_5/lineitem.tbl' WITH DELIMITER AS '|'
+	;
+2024-05-28 23:50:05.309 PDT [3851050] ERROR:  missing data for column "o_clerk"
+2024-05-28 23:50:05.309 PDT [3851050] CONTEXT:  COPY orders_s0_5_z2, line 138730: "554914|1037|F|103685.30|1995-01-03|4-NOT SPECIFIE"
+2024-05-28 23:50:05.309 PDT [3851050] STATEMENT:  copy orders_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z1_5/order.tbl' WITH DELIMITER AS '|';
+2024-05-28 23:51:39.363 PDT [3851050] ERROR:  missing data for column "o_clerk"
+2024-05-28 23:51:39.363 PDT [3851050] CONTEXT:  COPY orders_s0_5_z2, line 138730: "554914|1037|F|103685.30|1995-01-03|4-NOT SPECIFIE"
+2024-05-28 23:51:39.363 PDT [3851050] STATEMENT:  copy orders_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z1_5/order.tbl' WITH DELIMITER AS '|';
+2024-05-28 23:52:39.819 PDT [3851050] ERROR:  missing data for column "o_clerk"
+2024-05-28 23:52:39.819 PDT [3851050] CONTEXT:  COPY orders_s0_5_z2, line 138730: "554914|1037|F|103685.30|1995-01-03|4-NOT SPECIFIE"
+2024-05-28 23:52:39.819 PDT [3851050] STATEMENT:  copy orders_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z1/order.tbl' WITH DELIMITER AS '|';
+2024-05-28 23:53:21.595 PDT [3851050] ERROR:  missing data for column "o_clerk"
+2024-05-28 23:53:21.595 PDT [3851050] CONTEXT:  COPY orders_s0_5_z2, line 138730: "554914|1037|F|103685.30|1995-01-03|4-NOT SPECIFIE"
+2024-05-28 23:53:21.595 PDT [3851050] STATEMENT:  copy orders_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/z0/order.tbl' WITH DELIMITER AS '|';
+                                                                                                                                                                                                                                                                                                                                                                                                    2024-05-29 01:04:27.945 PDT [1846634] LOG:  database system was not properly shut down; automatic recovery in progress
+024-05-29 01:04:26.474 PDT [3841503] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-05-29 01:04:26.474 PDT [3841503] LOG:  received immediate shutdown request
+2024-05-29 01:04:26.526 PDT [3841509] WARNING:  terminating connection because of crash of another server process
+2024-05-29 01:04:26.526 PDT [3841509] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 01:04:26.526 PDT [3841509] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 01:04:26.527 PDT [3894447] WARNING:  terminating connection because of crash of another server process
+2024-05-29 01:04:26.527 PDT [3894447] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 01:04:26.527 PDT [3894447] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 01:04:26.568 PDT [3841503] LOG:  database system is shut down
+2024-05-29 01:04:27.971 PDT [1846634] LOG:  redo starts at 0/C216E80
+2024-05-29 01:04:27.971 PDT [1846634] LOG:  invalid record length at 0/C216F60: wanted 24, got 0
+2024-05-29 01:04:27.971 PDT [1846634] LOG:  redo done at 0/C216F28
+2024-05-29 01:04:27.998 PDT [1846631] LOG:  database system is ready to accept connections
+2024-05-29 01:04:27.998 PDT [1846631] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-05-29 01:04:47.645 PDT [1846631] LOG:  received fast shutdown request
+2024-05-29 01:04:47.645 PDT [1846631] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-05-29 01:04:47.645 PDT [1846631] LOG:  aborting any active transactions
+2024-05-29 01:04:47.647 PDT [1846631] LOG:  background worker "logical replication launcher" (PID 1846774) exited with exit code 1
+2024-05-29 01:04:47.647 PDT [1846769] LOG:  shutting down
+2024-05-29 01:04:47.685 PDT [1846631] LOG:  database system is shut down
+2024-05-29 01:04:57.602 PDT [1849438] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 01:04:57.602 PDT [1849438] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 01:04:57.605 PDT [1849438] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 01:04:57.626 PDT [1849439] LOG:  database system was shut down at 2024-05-29 01:04:47 PDT
+2024-05-29 01:04:57.630 PDT [1849438] LOG:  database system is ready to accept connections
+2024-05-29 01:05:20.310 PDT [1849438] LOG:  received fast shutdown request
+2024-05-29 01:05:20.311 PDT [1849438] LOG:  aborting any active transactions
+2024-05-29 01:05:20.312 PDT [1849438] LOG:  background worker "logical replication launcher" (PID 1849445) exited with exit code 1
+2024-05-29 01:05:20.312 PDT [1849440] LOG:  shutting down
+2024-05-29 01:05:20.355 PDT [1849438] LOG:  database system is shut down
+2024-05-29 01:05:56.076 PDT [1854630] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 01:05:56.077 PDT [1854630] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 01:05:56.079 PDT [1854630] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 01:05:56.106 PDT [1854633] LOG:  database system was shut down at 2024-05-29 01:05:20 PDT
+2024-05-29 01:05:56.112 PDT [1854630] LOG:  database system is ready to accept connections
+2024-05-29 01:06:36.026 PDT [1854630] LOG:  received fast shutdown request
+2024-05-29 01:06:36.028 PDT [1854630] LOG:  aborting any active transactions
+2024-05-29 01:06:36.029 PDT [1854630] LOG:  background worker "logical replication launcher" (PID 1854639) exited with exit code 1
+2024-05-29 01:06:36.029 PDT [1854634] LOG:  shutting down
+2024-05-29 01:06:36.068 PDT [1854630] LOG:  database system is shut down
+2024-05-29 01:19:54.659 PDT [1948711] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 01:19:54.659 PDT [1948711] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 01:19:54.662 PDT [1948711] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 01:19:54.693 PDT [1948714] LOG:  database system was shut down at 2024-05-29 01:06:36 PDT
+2024-05-29 01:19:54.703 PDT [1948711] LOG:  database system is ready to accept connections
+2024-05-29 01:21:45.043 PDT [1957399] ERROR:  could not open file "/nfs/stak/users/linyuya/CS549_osl/dataset/movies.csv" for reading: No such file or directory
+2024-05-29 01:21:45.043 PDT [1957399] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-05-29 01:21:45.043 PDT [1957399] STATEMENT:  COPY movies(movieId, title, genres)
+	FROM '/nfs/stak/users/linyuya/CS549_osl/dataset/movies.csv'
+	DELIMITER ','
+	CSV HEADER;
+2024-05-29 01:23:05.429 PDT [1957399] ERROR:  could not open file "/nfs/stak/users/linyuya/CS549_osl/dataset/ratings.csv" for reading: No such file or directory
+2024-05-29 01:23:05.429 PDT [1957399] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-05-29 01:23:05.429 PDT [1957399] STATEMENT:  COPY ratings(userId, movieId, rating, timestamp)
+	FROM '/nfs/stak/users/linyuya/CS549_osl/dataset/ratings.csv'
+	DELIMITER ','
+	CSV HEADER;
+2024-05-29 01:23:14.527 PDT [1957399] ERROR:  invalid input syntax for integer: "2005-04-02 23:53:47"
+2024-05-29 01:23:14.527 PDT [1957399] CONTEXT:  COPY ratings, line 2, column timestamp: "2005-04-02 23:53:47"
+2024-05-29 01:23:14.527 PDT [1957399] STATEMENT:  COPY ratings(userId, movieId, rating, timestamp)
+	FROM '/nfs/stak/users/linyuya/CS549_osl/dataset/rating.csv'
+	DELIMITER ','
+	CSV HEADER;
+2024-05-29 01:25:42.833 PDT [1957399] ERROR:  extra data after last expected column
+2024-05-29 01:25:42.833 PDT [1957399] CONTEXT:  COPY ratings, line 2: "1,2,3.5,2005-04-02 23:53:47"
+2024-05-29 01:25:42.833 PDT [1957399] STATEMENT:  COPY ratings(userId, movieId, rating)
+	FROM '/nfs/stak/users/linyuya/CS549_osl/dataset/rating.csv'
+	DELIMITER ','
+	CSV HEADER;
+2024-05-29 01:29:22.788 PDT [1957399] ERROR:  canceling statement due to user request
+2024-05-29 01:29:22.788 PDT [1957399] CONTEXT:  COPY ratings, line 4054001
+2024-05-29 01:29:22.788 PDT [1957399] STATEMENT:  COPY  ratings ( userId, movieId, rating, timestamp ) FROM STDIN DELIMITER ','
+	CSV HEADER;
+2024-05-29 01:30:11.374 PDT [1948715] LOG:  checkpoints are occurring too frequently (17 seconds apart)
+2024-05-29 01:30:11.374 PDT [1948715] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-05-29 01:30:27.875 PDT [1948715] LOG:  checkpoints are occurring too frequently (16 seconds apart)
+2024-05-29 01:30:27.875 PDT [1948715] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-05-29 01:43:21.362 PDT [1948711] LOG:  received fast shutdown request
+2024-05-29 01:43:21.364 PDT [1948711] LOG:  aborting any active transactions
+2024-05-29 01:43:21.369 PDT [1948711] LOG:  background worker "logical replication launcher" (PID 1948720) exited with exit code 1
+2024-05-29 01:43:21.369 PDT [1948715] LOG:  shutting down
+2024-05-29 01:43:21.432 PDT [1948711] LOG:  database system is shut down
+2024-05-29 01:48:17.409 PDT [2154583] LOG:  could not bind IPv6 address "::1": Address already in use
+2024-05-29 01:48:17.409 PDT [2154583] HINT:  Is another postmaster already running on port 1208? If not, wait a few seconds and retry.
+2024-05-29 01:48:17.409 PDT [2154583] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2024-05-29 01:48:17.409 PDT [2154583] HINT:  Is another postmaster already running on port 1208? If not, wait a few seconds and retry.
+2024-05-29 01:48:17.409 PDT [2154583] WARNING:  could not create listen socket for "localhost"
+2024-05-29 01:48:17.409 PDT [2154583] FATAL:  could not create any TCP/IP sockets
+2024-05-29 01:48:17.410 PDT [2154583] LOG:  database system is shut down
+2024-05-29 01:58:03.198 PDT [2222372] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 01:58:03.198 PDT [2222372] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 01:58:03.201 PDT [2222372] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 01:58:03.237 PDT [2222373] LOG:  database system was shut down at 2024-05-29 01:43:21 PDT
+2024-05-29 01:58:03.255 PDT [2222372] LOG:  database system is ready to accept connections
+2024-05-29 01:59:37.768 PDT [2222372] LOG:  received fast shutdown request
+2024-05-29 01:59:37.770 PDT [2222372] LOG:  aborting any active transactions
+2024-05-29 01:59:37.771 PDT [2222372] LOG:  background worker "logical replication launcher" (PID 2222379) exited with exit code 1
+2024-05-29 01:59:37.771 PDT [2222374] LOG:  shutting down
+2024-05-29 01:59:37.823 PDT [2222372] LOG:  database system is shut down
+2024-05-29 02:01:11.709 PDT [2244205] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 02:01:11.709 PDT [2244205] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 02:01:11.712 PDT [2244205] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 02:01:11.742 PDT [2244208] LOG:  database system was shut down at 2024-05-29 01:59:37 PDT
+2024-05-29 02:01:11.758 PDT [2244205] LOG:  database system is ready to accept connections
+2024-05-29 02:02:47.802 PDT [2244205] LOG:  received fast shutdown request
+2024-05-29 02:02:47.804 PDT [2244205] LOG:  aborting any active transactions
+2024-05-29 02:02:47.805 PDT [2244205] LOG:  background worker "logical replication launcher" (PID 2244214) exited with exit code 1
+2024-05-29 02:02:47.805 PDT [2244209] LOG:  shutting down
+2024-05-29 02:02:47.858 PDT [2244205] LOG:  database system is shut down
+2024-05-29 02:46:23.197 PDT [2552164] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 02:46:23.197 PDT [2552164] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 02:46:23.201 PDT [2552164] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 02:46:23.246 PDT [2552165] LOG:  database system was shut down at 2024-05-29 02:02:47 PDT
+2024-05-29 02:46:23.266 PDT [2552164] LOG:  database system is ready to accept connections
+2024-05-29 03:24:39.120 PDT [2820311] FATAL:  lock file "postmaster.pid" already exists
+2024-05-29 03:24:39.120 PDT [2820311] HINT:  Is another postmaster (PID 2552164) running in data directory "/nfs/stak/users/linyuya/CS549_osl/Join-Game/DemoDir"?
+2024-05-29 03:24:43.428 PDT [2552164] LOG:  received fast shutdown request
+2024-05-29 03:24:43.431 PDT [2552164] LOG:  aborting any active transactions
+2024-05-29 03:24:43.432 PDT [2552164] LOG:  background worker "logical replication launcher" (PID 2552171) exited with exit code 1
+2024-05-29 03:24:43.432 PDT [2552166] LOG:  shutting down
+2024-05-29 03:24:43.496 PDT [2552164] LOG:  database system is shut down
+2024-05-29 03:25:24.034 PDT [2825760] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 03:25:24.035 PDT [2825760] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 03:25:24.039 PDT [2825760] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 03:25:24.093 PDT [2825809] LOG:  database system was shut down at 2024-05-29 03:24:43 PDT
+2024-05-29 03:25:24.115 PDT [2825760] LOG:  database system is ready to accept connections
+2024-05-29 03:32:29.116 PDT [2825760] LOG:  received fast shutdown request
+2024-05-29 03:32:29.118 PDT [2825760] LOG:  aborting any active transactions
+2024-05-29 03:32:29.119 PDT [2825760] LOG:  background worker "logical replication launcher" (PID 2825838) exited with exit code 1
+2024-05-29 03:32:29.119 PDT [2825833] LOG:  shutting down
+2024-05-29 03:32:29.156 PDT [2825760] LOG:  database system is shut down
+2024-05-29 18:52:23.058 PDT [2237607] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 18:52:23.058 PDT [2237607] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 18:52:23.062 PDT [2237607] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 18:52:23.094 PDT [2237613] LOG:  database system was shut down at 2024-05-29 03:32:29 PDT
+2024-05-29 18:52:23.132 PDT [2237607] LOG:  database system is ready to accept connections
+2024-05-29 18:52:37.789 PDT [2237828] FATAL:  database "linyuya" does not exist
+2024-05-29 18:56:44.479 PDT [2239126] ERROR:  could not open file "/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/ shuffle_data_1/z0/lineitem.tbl" for reading: No such file or directory
+2024-05-29 18:56:44.479 PDT [2239126] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-05-29 18:56:44.479 PDT [2239126] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/ shuffle_data_1/z0/lineitem.tbl' WITH DELIMITER AS '|';
+2024-05-29 18:57:00.980 PDT [2239126] ERROR:  missing data for column "l_receiptdate"
+2024-05-29 18:57:00.980 PDT [2239126] CONTEXT:  COPY lineitem_s0_5_z2, line 126142: "242112|5566|332|6|19|27959.64|0.06|0.03|R|F|1995-05-26|1995-06-17"
+2024-05-29 18:57:00.980 PDT [2239126] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/shuffle_data_1/z0/lineitem.tbl' WITH DELIMITER AS '|';
+2024-05-29 19:26:19.718 PDT [2239126] ERROR:  syntax error at or near "*" at character 6
+2024-05-29 19:26:19.718 PDT [2239126] STATEMENT:  drop *
+	;
+2024-05-29 19:26:31.254 PDT [2239126] ERROR:  syntax error at or near "*" at character 12
+2024-05-29 19:26:31.254 PDT [2239126] STATEMENT:  drop table *;
+2024-05-29 19:31:22.044 PDT [2237607] LOG:  received fast shutdown request
+2024-05-29 19:31:22.047 PDT [2237607] LOG:  aborting any active transactions
+2024-05-29 19:31:22.048 PDT [2237607] LOG:  background worker "logical replication launcher" (PID 2237626) exited with exit code 1
+2024-05-29 19:31:22.048 PDT [2237621] LOG:  shutting down
+2024-05-29 19:31:22.101 PDT [2237607] LOG:  database system is shut down
+2024-05-29 19:31:24.954 PDT [2266357] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 19:31:24.954 PDT [2266357] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 19:31:24.956 PDT [2266357] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 19:31:24.979 PDT [2266358] LOG:  database system was shut down at 2024-05-29 19:31:22 PDT
+2024-05-29 19:31:25.053 PDT [2266357] LOG:  database system is ready to accept connections
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2024-05-29 19:55:25.562 PDT [2266357] LOG:  lock file "postmaster.pid" contains wrong PID: 162938 instead of 2266357
+2024-05-29 19:55:25.562 PDT [2266357] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-05-29 19:55:25.562 PDT [2266357] LOG:  received immediate shutdown request
+2024-05-29 19:55:25.563 PDT [2266362] WARNING:  terminating connection because of crash of another server process
+2024-05-29 19:55:25.563 PDT [2266362] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 19:55:25.563 PDT [2266362] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 19:55:25.565 PDT [2280249] WARNING:  terminating connection because of crash of another server process
+2024-05-29 19:55:25.565 PDT [2280249] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 19:55:25.565 PDT [2280249] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 19:55:25.594 PDT [2266357] LOG:  database system is shut down
+2024-05-29 19:56:03.991 PDT [162938] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-05-29 19:56:03.991 PDT [162938] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-05-29 19:56:03.991 PDT [162938] LOG:  received immediate shutdown request
+2024-05-29 19:56:03.992 PDT [162938] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-05-29 19:56:03.993 PDT [162963] WARNING:  terminating connection because of crash of another server process
+2024-05-29 19:56:03.993 PDT [162963] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 19:56:03.993 PDT [162963] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 19:56:03.993 PDT [163198] WARNING:  terminating connection because of crash of another server process
+2024-05-29 19:56:03.993 PDT [163198] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 19:56:03.993 PDT [163198] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 19:56:04.017 PDT [162938] LOG:  database system is shut down
+2024-05-29 20:03:32.165 PDT [170547] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 20:03:32.165 PDT [170547] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 20:03:32.168 PDT [170547] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 20:03:32.192 PDT [170548] LOG:  database system was interrupted; last known up at 2024-05-29 19:55:03 PDT
+2024-05-29 20:03:33.293 PDT [170548] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-05-29 20:03:33.329 PDT [170548] LOG:  redo starts at 0/9B6DE8E0
+2024-05-29 20:03:33.329 PDT [170548] LOG:  invalid record length at 0/9B6DE918: wanted 24, got 0
+2024-05-29 20:03:33.329 PDT [170548] LOG:  redo done at 0/9B6DE8E0
+2024-05-29 20:03:33.369 PDT [170547] LOG:  database system is ready to accept connections
+2024-05-29 21:10:09.601 PDT [192846] ERROR:  syntax error at or near "' WITH DELIMITER AS '" at character 35
+2024-05-29 21:10:09.601 PDT [192846] STATEMENT:  COPY  lineitem_S0_5_Z2 FROM STDIN ' WITH DELIMITER AS '|';
+	
+2024-05-29 21:10:20.798 PDT [192846] ERROR:  syntax error at or near "' WITH DELIMITER AS '" at character 35
+2024-05-29 21:10:20.798 PDT [192846] STATEMENT:  COPY  lineitem_S0_5_Z2 FROM STDIN ' WITH DELIMITER AS '|';
+	
+2024-05-29 21:24:11.588 PDT [2328416] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 21:24:11.588 PDT [2328416] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 21:24:11.591 PDT [2328416] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 21:24:11.619 PDT [2328417] LOG:  database system was interrupted; last known up at 2024-05-29 21:16:04 PDT
+2024-05-29 21:24:15.575 PDT [2328417] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-05-29 21:24:15.620 PDT [2328417] LOG:  redo starts at 0/A0DA3580
+2024-05-29 21:24:15.774 PDT [2328417] LOG:  invalid record length at 0/A106CE00: wanted 24, got 0
+2024-05-29 21:24:15.774 PDT [2328417] LOG:  redo done at 0/A106CDC8
+2024-05-29 21:24:15.775 PDT [2328417] LOG:  last completed transaction was at log time 2024-05-29 21:14:37.30892-07
+2024-05-29 21:24:15.928 PDT [2328416] LOG:  database system is ready to accept connections
+2024-05-29 21:24:37.561 PDT [170547] LOG:  lock file "postmaster.pid" contains wrong PID: 2328416 instead of 170547
+2024-05-29 21:24:37.562 PDT [170547] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-05-29 21:24:37.562 PDT [170547] LOG:  received immediate shutdown request
+2024-05-29 21:24:37.564 PDT [198471] WARNING:  terminating connection because of crash of another server process
+2024-05-29 21:24:37.564 PDT [198471] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 21:24:37.564 PDT [198471] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 21:24:37.564 PDT [170560] WARNING:  terminating connection because of crash of another server process
+2024-05-29 21:24:37.564 PDT [170560] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 21:24:37.564 PDT [170560] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 21:24:37.566 PDT [202491] WARNING:  terminating connection because of crash of another server process
+2024-05-29 21:24:37.566 PDT [202491] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 21:24:37.566 PDT [202491] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 21:24:37.596 PDT [170547] LOG:  database system is shut down
+2024-05-29 21:25:15.977 PDT [2328416] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-05-29 21:25:15.977 PDT [2328416] LOG:  performing immediate shutdown because data directory lock file is invalid
+2024-05-29 21:25:15.977 PDT [2328416] LOG:  received immediate shutdown request
+2024-05-29 21:25:15.978 PDT [2328416] LOG:  could not open file "postmaster.pid": No such file or directory
+2024-05-29 21:25:15.979 PDT [2328600] WARNING:  terminating connection because of crash of another server process
+2024-05-29 21:25:15.979 PDT [2328600] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 21:25:15.979 PDT [2328600] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 21:25:15.979 PDT [2328492] WARNING:  terminating connection because of crash of another server process
+2024-05-29 21:25:15.979 PDT [2328492] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 21:25:15.979 PDT [2328492] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 21:25:15.979 PDT [2329273] WARNING:  terminating connection because of crash of another server process
+2024-05-29 21:25:15.979 PDT [2329273] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2024-05-29 21:25:15.979 PDT [2329273] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2024-05-29 21:25:16.005 PDT [2328416] LOG:  database system is shut down
+2024-05-29 21:30:30.669 PDT [2033781] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 21:30:30.669 PDT [2033781] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 21:30:30.672 PDT [2033781] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 21:30:30.710 PDT [2033782] LOG:  database system was interrupted; last known up at 2024-05-29 21:24:15 PDT
+2024-05-29 21:30:35.057 PDT [2033782] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-05-29 21:30:35.082 PDT [2033782] LOG:  redo starts at 0/A106CE70
+2024-05-29 21:30:35.111 PDT [2033782] LOG:  invalid record length at 0/A10886A0: wanted 24, got 0
+2024-05-29 21:30:35.111 PDT [2033782] LOG:  redo done at 0/A1088348
+2024-05-29 21:30:35.111 PDT [2033782] LOG:  last completed transaction was at log time 2024-05-29 21:25:10.341597-07
+2024-05-29 21:30:35.167 PDT [2033781] LOG:  database system is ready to accept connections
+2024-05-29 21:32:10.869 PDT [2035269] ERROR:  could not open file "/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/shuffle_data_1/z0/lineitem.tbl" for reading: No such file or directory
+2024-05-29 21:32:10.869 PDT [2035269] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-05-29 21:32:10.869 PDT [2035269] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/shuffle_data_1/z0/lineitem.tbl' WITH DELIMITER AS '|';
+2024-05-29 21:32:37.569 PDT [2035269] ERROR:  could not open file "/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/shuffle_data_1/z0/lineitem.tbl" for reading: No such file or directory
+2024-05-29 21:32:37.569 PDT [2035269] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-05-29 21:32:37.569 PDT [2035269] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/shuffle_data_1/z0/lineitem.tbl' WITH DELIMITER AS '|';
+2024-05-29 21:33:02.798 PDT [2035269] ERROR:  could not open file " /nfs/stak/users/linyuya/CS549_osl/1gig/1gig/1_gig_data/shuffle_data_1/z0/lineitem.tbl" for reading: No such file or directory
+2024-05-29 21:33:02.798 PDT [2035269] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-05-29 21:33:02.798 PDT [2035269] STATEMENT:  copy lineitem_S0_5_Z2
+	FROM ' /nfs/stak/users/linyuya/CS549_osl/1gig/1gig/1_gig_data/shuffle_data_1/z0/lineitem.tbl' WITH DELIMITER AS '|';
+2024-05-29 21:34:03.982 PDT [2035269] ERROR:  could not open file "/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/shuffle_data_1/z0/partsupp.tbl" for reading: No such file or directory
+2024-05-29 21:34:03.982 PDT [2035269] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2024-05-29 21:34:03.982 PDT [2035269] STATEMENT:  copy partsupp_S0_5_Z2
+	FROM '/nfs/stak/users/linyuya/CS549_origin/1gig-master/1_gig_data/shuffle_data_1/z0/partsupp.tbl' WITH DELIMITER AS '|';
+2024-05-29 21:40:49.355 PDT [2033781] LOG:  received fast shutdown request
+2024-05-29 21:40:49.357 PDT [2033781] LOG:  aborting any active transactions
+2024-05-29 21:40:49.358 PDT [2033781] LOG:  background worker "logical replication launcher" (PID 2034064) exited with exit code 1
+2024-05-29 21:40:49.433 PDT [2034059] LOG:  shutting down
+2024-05-29 21:40:49.487 PDT [2033781] LOG:  database system is shut down
+2024-05-29 22:19:15.042 PDT [2385341] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 22:19:15.042 PDT [2385341] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 22:19:15.057 PDT [2385341] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 22:19:15.118 PDT [2385342] LOG:  database system was shut down at 2024-05-29 21:40:49 PDT
+2024-05-29 22:19:15.164 PDT [2385341] LOG:  database system is ready to accept connections
+2024-05-29 22:19:32.091 PDT [2387072] FATAL:  database "tpch" does not exist
+2024-05-29 22:56:56.567 PDT [2385341] LOG:  received fast shutdown request
+2024-05-29 22:56:56.570 PDT [2385341] LOG:  aborting any active transactions
+2024-05-29 22:56:56.571 PDT [2385341] LOG:  background worker "logical replication launcher" (PID 2385348) exited with exit code 1
+2024-05-29 22:56:56.575 PDT [2385343] LOG:  shutting down
+2024-05-29 22:56:56.655 PDT [2385341] LOG:  database system is shut down
+2024-05-29 23:33:36.113 PDT [2956975] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-29 23:33:36.114 PDT [2956975] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-29 23:33:36.117 PDT [2956975] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-29 23:33:36.155 PDT [2956976] LOG:  database system was shut down at 2024-05-29 22:56:56 PDT
+2024-05-29 23:33:36.194 PDT [2956975] LOG:  database system is ready to accept connections
+2024-05-29 23:45:52.277 PDT [2956975] LOG:  received fast shutdown request
+2024-05-29 23:45:52.279 PDT [2956975] LOG:  aborting any active transactions
+2024-05-29 23:45:52.280 PDT [2956975] LOG:  background worker "logical replication launcher" (PID 2956983) exited with exit code 1
+2024-05-29 23:45:52.280 PDT [2956978] LOG:  shutting down
+2024-05-29 23:45:52.343 PDT [2956975] LOG:  database system is shut down
+2024-05-30 00:04:24.193 PDT [3177997] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-30 00:04:24.193 PDT [3177997] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-30 00:04:24.196 PDT [3177997] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-30 00:04:24.241 PDT [3178026] LOG:  database system was shut down at 2024-05-29 23:45:52 PDT
+2024-05-30 00:04:24.284 PDT [3177997] LOG:  database system is ready to accept connections
+2024-05-30 00:57:17.047 PDT [3177997] LOG:  received fast shutdown request
+2024-05-30 00:57:17.050 PDT [3177997] LOG:  aborting any active transactions
+2024-05-30 00:57:17.052 PDT [3177997] LOG:  background worker "logical replication launcher" (PID 3178041) exited with exit code 1
+2024-05-30 00:57:17.052 PDT [3178036] LOG:  shutting down
+2024-05-30 00:57:17.127 PDT [3177997] LOG:  database system is shut down
+2024-05-30 01:00:05.057 PDT [3562339] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-30 01:00:05.057 PDT [3562339] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-30 01:00:05.063 PDT [3562339] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-30 01:00:05.114 PDT [3562340] LOG:  database system was shut down at 2024-05-30 00:57:17 PDT
+2024-05-30 01:00:05.162 PDT [3562339] LOG:  database system is ready to accept connections
+2024-05-30 01:00:48.497 PDT [3562339] LOG:  received fast shutdown request
+2024-05-30 01:00:48.499 PDT [3562339] LOG:  aborting any active transactions
+2024-05-30 01:00:48.500 PDT [3562339] LOG:  background worker "logical replication launcher" (PID 3562346) exited with exit code 1
+2024-05-30 01:00:48.500 PDT [3562341] LOG:  shutting down
+2024-05-30 01:00:48.572 PDT [3562339] LOG:  database system is shut down
+2024-05-30 13:57:07.061 PDT [617598] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-30 13:57:07.061 PDT [617598] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-30 13:57:07.064 PDT [617598] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-30 13:57:07.097 PDT [617599] LOG:  database system was shut down at 2024-05-30 01:00:48 PDT
+2024-05-30 13:57:07.136 PDT [617598] LOG:  database system is ready to accept connections
+2024-05-30 14:21:38.603 PDT [617598] LOG:  received fast shutdown request
+2024-05-30 14:21:38.606 PDT [617598] LOG:  aborting any active transactions
+2024-05-30 14:21:38.607 PDT [617598] LOG:  background worker "logical replication launcher" (PID 617605) exited with exit code 1
+2024-05-30 14:21:38.607 PDT [617600] LOG:  shutting down
+2024-05-30 14:21:38.685 PDT [617598] LOG:  database system is shut down
+2024-05-30 14:22:32.814 PDT [641966] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-30 14:22:32.814 PDT [641966] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-30 14:22:32.818 PDT [641966] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-30 14:22:32.852 PDT [641967] LOG:  database system was shut down at 2024-05-30 14:21:38 PDT
+2024-05-30 14:22:32.885 PDT [641966] LOG:  database system is ready to accept connections
+2024-05-30 14:46:38.791 PDT [641966] LOG:  received fast shutdown request
+2024-05-30 14:46:38.793 PDT [641966] LOG:  aborting any active transactions
+2024-05-30 14:46:38.793 PDT [641966] LOG:  background worker "logical replication launcher" (PID 641973) exited with exit code 1
+2024-05-30 14:46:38.794 PDT [641968] LOG:  shutting down
+2024-05-30 14:46:38.860 PDT [641966] LOG:  database system is shut down
+2024-05-30 15:40:51.613 PDT [477722] LOG:  listening on IPv6 address "::1", port 1208
+2024-05-30 15:40:51.613 PDT [477722] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-05-30 15:40:51.617 PDT [477722] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-05-30 15:40:51.654 PDT [477732] LOG:  database system was shut down at 2024-05-30 14:46:38 PDT
+2024-05-30 15:40:51.701 PDT [477722] LOG:  database system is ready to accept connections
+2024-05-30 15:54:52.942 PDT [477722] LOG:  received fast shutdown request
+2024-05-30 15:54:52.944 PDT [477722] LOG:  aborting any active transactions
+2024-05-30 15:54:52.945 PDT [477722] LOG:  background worker "logical replication launcher" (PID 477743) exited with exit code 1
+2024-05-30 15:54:52.945 PDT [477738] LOG:  shutting down
+2024-05-30 15:54:53.012 PDT [477722] LOG:  database system is shut down
