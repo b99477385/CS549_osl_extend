@@ -7,3 +7,33 @@
 2024-06-05 22:05:39.998 PDT [638404] LOG:  database system is ready to accept connections
 2024-06-05 22:07:07.007 PDT [638680] WARNING:  TupleDesc reference leak: TupleDesc 0x7fb5848573e8 (41100,-1) still referenced
 2024-06-05 22:07:07.007 PDT [638680] WARNING:  TupleDesc reference leak: TupleDesc 0x7fb5848573e8 (41100,-1) still referenced
+2024-06-05 23:07:37.692 PDT [702324] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 23:07:37.692 PDT [702324] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 23:07:37.696 PDT [702324] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 23:07:37.744 PDT [702325] LOG:  database system was shut down at 2024-06-05 23:03:35 PDT
+2024-06-05 23:07:37.763 PDT [702324] LOG:  database system is ready to accept connections
+2024-06-05 23:09:24.016 PDT [702324] LOG:  received fast shutdown request
+2024-06-05 23:09:24.018 PDT [702324] LOG:  aborting any active transactions
+2024-06-05 23:09:24.019 PDT [702324] LOG:  background worker "logical replication launcher" (PID 702331) exited with exit code 1
+2024-06-05 23:09:24.019 PDT [702326] LOG:  shutting down
+2024-06-05 23:09:24.075 PDT [702324] LOG:  database system is shut down
+2024-06-05 23:28:08.921 PDT [1158644] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 23:28:08.921 PDT [1158644] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 23:28:08.926 PDT [1158644] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 23:28:08.964 PDT [1158647] LOG:  database system was shut down at 2024-06-05 23:09:24 PDT
+2024-06-05 23:28:08.998 PDT [1158644] LOG:  database system is ready to accept connections
+2024-06-05 23:31:20.075 PDT [1158644] LOG:  received fast shutdown request
+2024-06-05 23:31:20.077 PDT [1158644] LOG:  aborting any active transactions
+2024-06-05 23:31:20.077 PDT [1158644] LOG:  background worker "logical replication launcher" (PID 1158654) exited with exit code 1
+2024-06-05 23:31:20.078 PDT [1158649] LOG:  shutting down
+2024-06-05 23:31:20.145 PDT [1158644] LOG:  database system is shut down
+2024-06-05 23:36:00.109 PDT [1163886] LOG:  listening on IPv6 address "::1", port 1209
+2024-06-05 23:36:00.109 PDT [1163886] LOG:  listening on IPv4 address "127.0.0.1", port 1209
+2024-06-05 23:36:00.113 PDT [1163886] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1209"
+2024-06-05 23:36:00.150 PDT [1163887] LOG:  database system was shut down at 2024-06-05 23:31:20 PDT
+2024-06-05 23:36:00.169 PDT [1163886] LOG:  database system is ready to accept connections
+2024-06-05 23:36:38.921 PDT [1163886] LOG:  received fast shutdown request
+2024-06-05 23:36:38.924 PDT [1163886] LOG:  aborting any active transactions
+2024-06-05 23:36:38.925 PDT [1163886] LOG:  background worker "logical replication launcher" (PID 1163893) exited with exit code 1
+2024-06-05 23:36:38.925 PDT [1163888] LOG:  shutting down
+2024-06-05 23:36:38.979 PDT [1163886] LOG:  database system is shut down
