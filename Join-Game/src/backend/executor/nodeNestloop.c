@@ -268,7 +268,7 @@ seedToExploitLeftPage(PlanState *pstate){
 			}
 			else{
 
-				//we can collect the tuples here and if # of tuples failed + the tuple of # of tuples in reward table can form a page then output the table.!
+				//we can collect the tuples here !
 				if(head == NULL){
 					head = create_node();
 					tail = head;

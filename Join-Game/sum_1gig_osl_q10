@@ -1,0 +1,599 @@
+	Query: select * from customer110, order110 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.003858	 Average time (weighted): 0.003687
+K val:20	Average time (unweighted): 0.006486	 Average time (weighted): 0.005916
+K val:30	Average time (unweighted): 0.009862	 Average time (weighted): 0.008540
+K val:40	Average time (unweighted): 0.014798	 Average time (weighted): 0.012006
+K val:50	Average time (unweighted): 0.018837	 Average time (weighted): 0.014551
+K val:60	Average time (unweighted): 0.021471	 Average time (weighted): 0.016052
+K val:70	Average time (unweighted): 0.024822	 Average time (weighted): 0.017779
+K val:80	Average time (unweighted): 0.029002	 Average time (weighted): 0.019729
+K val:90	Average time (unweighted): 0.033486	 Average time (weighted): 0.021634
+K val:100	Average time (unweighted): 0.037234	 Average time (weighted): 0.023055
+K val:200	Average time (unweighted): 0.081696	 Average time (weighted): 0.033301
+K val:300	Average time (unweighted): 0.127122	 Average time (weighted): 0.037282
+K val:400	Average time (unweighted): 0.177435	 Average time (weighted): 0.038854
+K val:500	Average time (unweighted): 0.222951	 Average time (weighted): 0.039379
+K val:600	Average time (unweighted): 0.273591	 Average time (weighted): 0.039588
+K val:700	Average time (unweighted): 0.319285	 Average time (weighted): 0.039657
+K val:800	Average time (unweighted): 0.356621	 Average time (weighted): 0.039678
+K val:900	Average time (unweighted): 0.391509	 Average time (weighted): 0.039685
+K val:1000	Average time (unweighted): 0.410021	 Average time (weighted): 0.039687
+K val:2000	Average time (unweighted): 0.638977	 Average time (weighted): 0.039688
+K val:3000	Average time (unweighted): 0.897692	 Average time (weighted): 0.039688
+K val:4000	Average time (unweighted): 1.231997	 Average time (weighted): 0.039688
+K val:5000	Average time (unweighted): 1.586478	 Average time (weighted): 0.039688
+K val:6000	Average time (unweighted): 1.936118	 Average time (weighted): 0.039688
+K val:7000	Average time (unweighted): 2.277507	 Average time (weighted): 0.039688
+K val:8000	Average time (unweighted): 2.644189	 Average time (weighted): 0.039688
+K val:9000	Average time (unweighted): 3.045712	 Average time (weighted): 0.039688
+K val:10000	Average time (unweighted): 3.443123	 Average time (weighted): 0.039688
+K val:11000	Average time (unweighted): 3.837034	 Average time (weighted): 0.039688
+K val:12000	Average time (unweighted): 4.209090	 Average time (weighted): 0.039688
+K val:13000	Average time (unweighted): 4.612727	 Average time (weighted): 0.039688
+K val:14000	Average time (unweighted): 5.004747	 Average time (weighted): 0.039688
+K val:15000	Average time (unweighted): 5.372226	 Average time (weighted): 0.039688
+K val:17500	Average time (unweighted): 6.158525	 Average time (weighted): 0.039688
+K val:20000	Average time (unweighted): 7.145415	 Average time (weighted): 0.039688
+K val:22500	Average time (unweighted): 8.031416	 Average time (weighted): 0.039688
+K val:25000	Average time (unweighted): 8.947298	 Average time (weighted): 0.039688
+K val:30000	Average time (unweighted): 10.839790	 Average time (weighted): 0.039688
+K val:35000	Average time (unweighted): 12.498725	 Average time (weighted): 0.039688
+K val:40000	Average time (unweighted): 14.223568	 Average time (weighted): 0.039688
+K val:45000	Average time (unweighted): 16.085308	 Average time (weighted): 0.039688
+K val:50000	Average time (unweighted): 17.786680	 Average time (weighted): 0.039688
+K val:60000	Average time (unweighted): 21.461376	 Average time (weighted): 0.039688
+K val:70000	Average time (unweighted): 24.826169	 Average time (weighted): 0.039688
+K val:80000	Average time (unweighted): 28.464311	 Average time (weighted): 0.039688
+K val:90000	Average time (unweighted): 32.186827	 Average time (weighted): 0.039688
+K val:100000	Average time (unweighted): 35.566819	 Average time (weighted): 0.039688
+K val:150000	Average time (unweighted): 54.414986	 Average time (weighted): 0.039688
+K val:165349	Average time (unweighted): 60.000078	 Average time (weighted): 0.039688
+	Query: select * from customer120, order120 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.074133	 Average time (weighted): 0.070875
+K val:20	Average time (unweighted): 0.089716	 Average time (weighted): 0.083754
+K val:30	Average time (unweighted): 0.210769	 Average time (weighted): 0.176998
+K val:40	Average time (unweighted): 0.213899	 Average time (weighted): 0.179186
+K val:50	Average time (unweighted): 0.239523	 Average time (weighted): 0.195762
+K val:60	Average time (unweighted): 0.264646	 Average time (weighted): 0.210407
+K val:70	Average time (unweighted): 0.275562	 Average time (weighted): 0.216214
+K val:80	Average time (unweighted): 0.306149	 Average time (weighted): 0.230679
+K val:90	Average time (unweighted): 0.324476	 Average time (weighted): 0.238483
+K val:100	Average time (unweighted): 0.347872	 Average time (weighted): 0.247340
+K val:200	Average time (unweighted): 0.576236	 Average time (weighted): 0.299996
+K val:300	Average time (unweighted): 0.782705	 Average time (weighted): 0.317884
+K val:400	Average time (unweighted): 0.899408	 Average time (weighted): 0.321827
+K val:500	Average time (unweighted): 0.936934	 Average time (weighted): 0.322262
+K val:600	Average time (unweighted): 0.995883	 Average time (weighted): 0.322541
+K val:700	Average time (unweighted): 1.033780	 Average time (weighted): 0.322597
+K val:800	Average time (unweighted): 1.068522	 Average time (weighted): 0.322617
+K val:900	Average time (unweighted): 1.101648	 Average time (weighted): 0.322624
+K val:1000	Average time (unweighted): 1.141634	 Average time (weighted): 0.322627
+K val:2000	Average time (unweighted): 1.440868	 Average time (weighted): 0.322628
+K val:3000	Average time (unweighted): 1.758389	 Average time (weighted): 0.322628
+K val:4000	Average time (unweighted): 2.095642	 Average time (weighted): 0.322628
+K val:5000	Average time (unweighted): 2.425153	 Average time (weighted): 0.322628
+K val:6000	Average time (unweighted): 2.769529	 Average time (weighted): 0.322628
+K val:7000	Average time (unweighted): 3.132746	 Average time (weighted): 0.322628
+K val:8000	Average time (unweighted): 3.528335	 Average time (weighted): 0.322628
+K val:9000	Average time (unweighted): 3.880841	 Average time (weighted): 0.322628
+K val:10000	Average time (unweighted): 4.219959	 Average time (weighted): 0.322628
+K val:11000	Average time (unweighted): 4.553766	 Average time (weighted): 0.322628
+K val:12000	Average time (unweighted): 4.946488	 Average time (weighted): 0.322628
+K val:13000	Average time (unweighted): 5.283966	 Average time (weighted): 0.322628
+K val:14000	Average time (unweighted): 5.643542	 Average time (weighted): 0.322628
+K val:15000	Average time (unweighted): 6.031189	 Average time (weighted): 0.322628
+K val:17500	Average time (unweighted): 6.947889	 Average time (weighted): 0.322628
+K val:20000	Average time (unweighted): 7.749577	 Average time (weighted): 0.322628
+K val:22500	Average time (unweighted): 8.632531	 Average time (weighted): 0.322628
+K val:25000	Average time (unweighted): 9.488417	 Average time (weighted): 0.322628
+K val:30000	Average time (unweighted): 11.284254	 Average time (weighted): 0.322628
+K val:35000	Average time (unweighted): 12.972152	 Average time (weighted): 0.322628
+K val:40000	Average time (unweighted): 14.795668	 Average time (weighted): 0.322628
+K val:45000	Average time (unweighted): 16.569821	 Average time (weighted): 0.322628
+K val:50000	Average time (unweighted): 18.254536	 Average time (weighted): 0.322628
+K val:60000	Average time (unweighted): 21.883928	 Average time (weighted): 0.322628
+K val:70000	Average time (unweighted): 25.773517	 Average time (weighted): 0.322628
+K val:80000	Average time (unweighted): 29.361239	 Average time (weighted): 0.322628
+K val:90000	Average time (unweighted): 32.892308	 Average time (weighted): 0.322628
+K val:100000	Average time (unweighted): 36.621941	 Average time (weighted): 0.322628
+K val:150000	Average time (unweighted): 55.536090	 Average time (weighted): 0.322628
+K val:162177	Average time (unweighted): 60.000346	 Average time (weighted): 0.322628
+	Query: select * from customer130, order130 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.024517	 Average time (weighted): 0.023522
+K val:20	Average time (unweighted): 0.043188	 Average time (weighted): 0.039455
+K val:30	Average time (unweighted): 0.048683	 Average time (weighted): 0.043642
+K val:40	Average time (unweighted): 0.072524	 Average time (weighted): 0.060269
+K val:50	Average time (unweighted): 0.075987	 Average time (weighted): 0.062459
+K val:60	Average time (unweighted): 0.089848	 Average time (weighted): 0.070490
+K val:70	Average time (unweighted): 0.108858	 Average time (weighted): 0.080390
+K val:80	Average time (unweighted): 0.143938	 Average time (weighted): 0.097090
+K val:90	Average time (unweighted): 0.170794	 Average time (weighted): 0.108720
+K val:100	Average time (unweighted): 0.173240	 Average time (weighted): 0.109656
+K val:200	Average time (unweighted): 0.416650	 Average time (weighted): 0.169892
+K val:300	Average time (unweighted): 0.585805	 Average time (weighted): 0.184401
+K val:400	Average time (unweighted): 0.699364	 Average time (weighted): 0.188590
+K val:500	Average time (unweighted): 0.746041	 Average time (weighted): 0.189094
+K val:600	Average time (unweighted): 0.783303	 Average time (weighted): 0.189246
+K val:700	Average time (unweighted): 0.826617	 Average time (weighted): 0.189311
+K val:800	Average time (unweighted): 0.873776	 Average time (weighted): 0.189338
+K val:900	Average time (unweighted): 0.909140	 Average time (weighted): 0.189345
+K val:1000	Average time (unweighted): 0.944985	 Average time (weighted): 0.189348
+K val:2000	Average time (unweighted): 1.300530	 Average time (weighted): 0.189349
+K val:3000	Average time (unweighted): 1.705734	 Average time (weighted): 0.189349
+K val:4000	Average time (unweighted): 2.021804	 Average time (weighted): 0.189349
+K val:5000	Average time (unweighted): 2.251046	 Average time (weighted): 0.189349
+K val:6000	Average time (unweighted): 2.567962	 Average time (weighted): 0.189349
+K val:7000	Average time (unweighted): 2.944139	 Average time (weighted): 0.189349
+K val:8000	Average time (unweighted): 3.315649	 Average time (weighted): 0.189349
+K val:9000	Average time (unweighted): 3.704153	 Average time (weighted): 0.189349
+K val:10000	Average time (unweighted): 4.086477	 Average time (weighted): 0.189349
+K val:11000	Average time (unweighted): 4.446153	 Average time (weighted): 0.189349
+K val:12000	Average time (unweighted): 4.803464	 Average time (weighted): 0.189349
+K val:13000	Average time (unweighted): 5.203566	 Average time (weighted): 0.189349
+K val:14000	Average time (unweighted): 5.546295	 Average time (weighted): 0.189349
+K val:15000	Average time (unweighted): 5.864995	 Average time (weighted): 0.189349
+K val:17500	Average time (unweighted): 6.894265	 Average time (weighted): 0.189349
+K val:20000	Average time (unweighted): 7.781139	 Average time (weighted): 0.189349
+K val:22500	Average time (unweighted): 8.675364	 Average time (weighted): 0.189349
+K val:25000	Average time (unweighted): 9.462946	 Average time (weighted): 0.189349
+K val:30000	Average time (unweighted): 11.274440	 Average time (weighted): 0.189349
+K val:35000	Average time (unweighted): 12.965870	 Average time (weighted): 0.189349
+K val:40000	Average time (unweighted): 14.894337	 Average time (weighted): 0.189349
+K val:45000	Average time (unweighted): 16.738975	 Average time (weighted): 0.189349
+K val:50000	Average time (unweighted): 18.626190	 Average time (weighted): 0.189349
+K val:60000	Average time (unweighted): 22.238037	 Average time (weighted): 0.189349
+K val:70000	Average time (unweighted): 26.001853	 Average time (weighted): 0.189349
+K val:80000	Average time (unweighted): 29.657464	 Average time (weighted): 0.189349
+K val:90000	Average time (unweighted): 33.191382	 Average time (weighted): 0.189349
+K val:100000	Average time (unweighted): 36.718759	 Average time (weighted): 0.189349
+K val:148904	Average time (unweighted): 55.386699	 Average time (weighted): 0.189349
+	Query: select * from customer111, order111 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.031587	 Average time (weighted): 0.030085
+K val:20	Average time (unweighted): 0.048846	 Average time (weighted): 0.044958
+K val:30	Average time (unweighted): 0.054797	 Average time (weighted): 0.049554
+K val:40	Average time (unweighted): 0.082199	 Average time (weighted): 0.069522
+K val:50	Average time (unweighted): 0.103194	 Average time (weighted): 0.082992
+K val:60	Average time (unweighted): 0.119839	 Average time (weighted): 0.092495
+K val:70	Average time (unweighted): 0.129278	 Average time (weighted): 0.097395
+K val:80	Average time (unweighted): 0.142010	 Average time (weighted): 0.103520
+K val:90	Average time (unweighted): 0.150049	 Average time (weighted): 0.106836
+K val:100	Average time (unweighted): 0.166632	 Average time (weighted): 0.113220
+K val:200	Average time (unweighted): 0.359517	 Average time (weighted): 0.159298
+K val:300	Average time (unweighted): 0.524517	 Average time (weighted): 0.171954
+K val:400	Average time (unweighted): 0.674800	 Average time (weighted): 0.176575
+K val:500	Average time (unweighted): 0.720959	 Average time (weighted): 0.177111
+K val:600	Average time (unweighted): 0.758767	 Average time (weighted): 0.177268
+K val:700	Average time (unweighted): 0.793866	 Average time (weighted): 0.177319
+K val:800	Average time (unweighted): 0.832672	 Average time (weighted): 0.177341
+K val:900	Average time (unweighted): 0.869464	 Average time (weighted): 0.177349
+K val:1000	Average time (unweighted): 0.909944	 Average time (weighted): 0.177352
+K val:2000	Average time (unweighted): 1.271289	 Average time (weighted): 0.177353
+K val:3000	Average time (unweighted): 1.574487	 Average time (weighted): 0.177353
+K val:4000	Average time (unweighted): 1.927483	 Average time (weighted): 0.177353
+K val:5000	Average time (unweighted): 2.254750	 Average time (weighted): 0.177353
+K val:6000	Average time (unweighted): 2.620998	 Average time (weighted): 0.177353
+K val:7000	Average time (unweighted): 2.948083	 Average time (weighted): 0.177353
+K val:8000	Average time (unweighted): 3.353933	 Average time (weighted): 0.177353
+K val:9000	Average time (unweighted): 3.683237	 Average time (weighted): 0.177353
+K val:10000	Average time (unweighted): 4.007396	 Average time (weighted): 0.177353
+K val:11000	Average time (unweighted): 4.385606	 Average time (weighted): 0.177353
+K val:12000	Average time (unweighted): 4.755150	 Average time (weighted): 0.177353
+K val:13000	Average time (unweighted): 5.097724	 Average time (weighted): 0.177353
+K val:14000	Average time (unweighted): 5.448884	 Average time (weighted): 0.177353
+K val:15000	Average time (unweighted): 5.815982	 Average time (weighted): 0.177353
+K val:17500	Average time (unweighted): 6.672033	 Average time (weighted): 0.177353
+K val:20000	Average time (unweighted): 7.541889	 Average time (weighted): 0.177353
+K val:22500	Average time (unweighted): 8.426501	 Average time (weighted): 0.177353
+K val:25000	Average time (unweighted): 9.349031	 Average time (weighted): 0.177353
+K val:30000	Average time (unweighted): 11.181997	 Average time (weighted): 0.177353
+K val:35000	Average time (unweighted): 12.913068	 Average time (weighted): 0.177353
+K val:40000	Average time (unweighted): 14.696533	 Average time (weighted): 0.177353
+K val:45000	Average time (unweighted): 16.561338	 Average time (weighted): 0.177353
+K val:50000	Average time (unweighted): 18.196767	 Average time (weighted): 0.177353
+K val:60000	Average time (unweighted): 21.747294	 Average time (weighted): 0.177353
+K val:70000	Average time (unweighted): 25.402897	 Average time (weighted): 0.177353
+K val:80000	Average time (unweighted): 28.799008	 Average time (weighted): 0.177353
+K val:90000	Average time (unweighted): 32.353033	 Average time (weighted): 0.177353
+K val:100000	Average time (unweighted): 36.035463	 Average time (weighted): 0.177353
+K val:150000	Average time (unweighted): 54.293232	 Average time (weighted): 0.177353
+K val:165995	Average time (unweighted): 60.000239	 Average time (weighted): 0.177353
+	Query: select * from customer121, order121 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.042178	 Average time (weighted): 0.040015
+K val:20	Average time (unweighted): 0.095995	 Average time (weighted): 0.086622
+K val:30	Average time (unweighted): 0.113480	 Average time (weighted): 0.099931
+K val:40	Average time (unweighted): 0.121555	 Average time (weighted): 0.105452
+K val:50	Average time (unweighted): 0.142794	 Average time (weighted): 0.119187
+K val:60	Average time (unweighted): 0.157435	 Average time (weighted): 0.127262
+K val:70	Average time (unweighted): 0.163029	 Average time (weighted): 0.130102
+K val:80	Average time (unweighted): 0.201954	 Average time (weighted): 0.148408
+K val:90	Average time (unweighted): 0.204580	 Average time (weighted): 0.149511
+K val:100	Average time (unweighted): 0.224269	 Average time (weighted): 0.157318
+K val:200	Average time (unweighted): 0.465385	 Average time (weighted): 0.209806
+K val:300	Average time (unweighted): 0.770188	 Average time (weighted): 0.236753
+K val:400	Average time (unweighted): 0.887824	 Average time (weighted): 0.241176
+K val:500	Average time (unweighted): 0.919000	 Average time (weighted): 0.241516
+K val:600	Average time (unweighted): 0.955733	 Average time (weighted): 0.241664
+K val:700	Average time (unweighted): 0.992470	 Average time (weighted): 0.241720
+K val:800	Average time (unweighted): 1.034931	 Average time (weighted): 0.241743
+K val:900	Average time (unweighted): 1.069188	 Average time (weighted): 0.241750
+K val:1000	Average time (unweighted): 1.104456	 Average time (weighted): 0.241753
+K val:2000	Average time (unweighted): 1.488953	 Average time (weighted): 0.241754
+K val:3000	Average time (unweighted): 1.822772	 Average time (weighted): 0.241754
+K val:4000	Average time (unweighted): 2.177288	 Average time (weighted): 0.241754
+K val:5000	Average time (unweighted): 2.537512	 Average time (weighted): 0.241754
+K val:6000	Average time (unweighted): 2.881587	 Average time (weighted): 0.241754
+K val:7000	Average time (unweighted): 3.226325	 Average time (weighted): 0.241754
+K val:8000	Average time (unweighted): 3.597525	 Average time (weighted): 0.241754
+K val:9000	Average time (unweighted): 3.949338	 Average time (weighted): 0.241754
+K val:10000	Average time (unweighted): 4.336667	 Average time (weighted): 0.241754
+K val:11000	Average time (unweighted): 4.669074	 Average time (weighted): 0.241754
+K val:12000	Average time (unweighted): 5.028809	 Average time (weighted): 0.241754
+K val:13000	Average time (unweighted): 5.364009	 Average time (weighted): 0.241754
+K val:14000	Average time (unweighted): 5.608325	 Average time (weighted): 0.241754
+K val:15000	Average time (unweighted): 5.924009	 Average time (weighted): 0.241754
+K val:17500	Average time (unweighted): 6.832185	 Average time (weighted): 0.241754
+K val:20000	Average time (unweighted): 7.710847	 Average time (weighted): 0.241754
+K val:22500	Average time (unweighted): 8.559043	 Average time (weighted): 0.241754
+K val:25000	Average time (unweighted): 9.371779	 Average time (weighted): 0.241754
+K val:30000	Average time (unweighted): 11.193372	 Average time (weighted): 0.241754
+K val:35000	Average time (unweighted): 12.969073	 Average time (weighted): 0.241754
+K val:40000	Average time (unweighted): 14.833361	 Average time (weighted): 0.241754
+K val:45000	Average time (unweighted): 16.457943	 Average time (weighted): 0.241754
+K val:50000	Average time (unweighted): 18.286789	 Average time (weighted): 0.241754
+K val:60000	Average time (unweighted): 21.797399	 Average time (weighted): 0.241754
+K val:70000	Average time (unweighted): 25.584808	 Average time (weighted): 0.241754
+K val:80000	Average time (unweighted): 29.108281	 Average time (weighted): 0.241754
+K val:90000	Average time (unweighted): 32.675794	 Average time (weighted): 0.241754
+K val:100000	Average time (unweighted): 36.232282	 Average time (weighted): 0.241754
+K val:150000	Average time (unweighted): 54.939810	 Average time (weighted): 0.241754
+K val:163910	Average time (unweighted): 60.000481	 Average time (weighted): 0.241754
+	Query: select * from customer131, order131 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.003332	 Average time (weighted): 0.003166
+K val:20	Average time (unweighted): 0.006101	 Average time (weighted): 0.005549
+K val:30	Average time (unweighted): 0.010282	 Average time (weighted): 0.008800
+K val:40	Average time (unweighted): 0.015368	 Average time (weighted): 0.012425
+K val:50	Average time (unweighted): 0.018572	 Average time (weighted): 0.014480
+K val:60	Average time (unweighted): 0.020964	 Average time (weighted): 0.015855
+K val:70	Average time (unweighted): 0.025867	 Average time (weighted): 0.018409
+K val:80	Average time (unweighted): 0.031368	 Average time (weighted): 0.021025
+K val:90	Average time (unweighted): 0.034280	 Average time (weighted): 0.022246
+K val:100	Average time (unweighted): 0.038740	 Average time (weighted): 0.023962
+K val:200	Average time (unweighted): 0.076023	 Average time (weighted): 0.032458
+K val:300	Average time (unweighted): 0.119897	 Average time (weighted): 0.036199
+K val:400	Average time (unweighted): 0.160707	 Average time (weighted): 0.037413
+K val:500	Average time (unweighted): 0.203775	 Average time (weighted): 0.037887
+K val:600	Average time (unweighted): 0.239811	 Average time (weighted): 0.038042
+K val:700	Average time (unweighted): 0.276561	 Average time (weighted): 0.038100
+K val:800	Average time (unweighted): 0.321900	 Average time (weighted): 0.038125
+K val:900	Average time (unweighted): 0.361176	 Average time (weighted): 0.038133
+K val:1000	Average time (unweighted): 0.393484	 Average time (weighted): 0.038136
+K val:2000	Average time (unweighted): 0.693976	 Average time (weighted): 0.038137
+K val:3000	Average time (unweighted): 1.062807	 Average time (weighted): 0.038137
+K val:4000	Average time (unweighted): 1.406479	 Average time (weighted): 0.038137
+K val:5000	Average time (unweighted): 1.766308	 Average time (weighted): 0.038137
+K val:6000	Average time (unweighted): 2.078267	 Average time (weighted): 0.038137
+K val:7000	Average time (unweighted): 2.464276	 Average time (weighted): 0.038137
+K val:8000	Average time (unweighted): 2.876949	 Average time (weighted): 0.038137
+K val:9000	Average time (unweighted): 3.222413	 Average time (weighted): 0.038137
+K val:10000	Average time (unweighted): 3.575781	 Average time (weighted): 0.038137
+K val:11000	Average time (unweighted): 3.868218	 Average time (weighted): 0.038137
+K val:12000	Average time (unweighted): 4.250324	 Average time (weighted): 0.038137
+K val:13000	Average time (unweighted): 4.643920	 Average time (weighted): 0.038137
+K val:14000	Average time (unweighted): 4.970679	 Average time (weighted): 0.038137
+K val:15000	Average time (unweighted): 5.345186	 Average time (weighted): 0.038137
+K val:17500	Average time (unweighted): 6.164968	 Average time (weighted): 0.038137
+K val:20000	Average time (unweighted): 7.013659	 Average time (weighted): 0.038137
+K val:22500	Average time (unweighted): 7.869646	 Average time (weighted): 0.038137
+K val:25000	Average time (unweighted): 8.766352	 Average time (weighted): 0.038137
+K val:30000	Average time (unweighted): 10.568432	 Average time (weighted): 0.038137
+K val:35000	Average time (unweighted): 12.401941	 Average time (weighted): 0.038137
+K val:40000	Average time (unweighted): 14.115131	 Average time (weighted): 0.038137
+K val:45000	Average time (unweighted): 15.892837	 Average time (weighted): 0.038137
+K val:50000	Average time (unweighted): 17.543114	 Average time (weighted): 0.038137
+K val:60000	Average time (unweighted): 21.088631	 Average time (weighted): 0.038137
+K val:70000	Average time (unweighted): 24.859961	 Average time (weighted): 0.038137
+K val:80000	Average time (unweighted): 28.429896	 Average time (weighted): 0.038137
+K val:90000	Average time (unweighted): 32.006973	 Average time (weighted): 0.038137
+K val:100000	Average time (unweighted): 35.704626	 Average time (weighted): 0.038137
+K val:149067	Average time (unweighted): 54.519336	 Average time (weighted): 0.038137
+	Query: select * from customer111_5, order111_5 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.054771	 Average time (weighted): 0.052296
+K val:20	Average time (unweighted): 0.082476	 Average time (weighted): 0.076008
+K val:30	Average time (unweighted): 0.098450	 Average time (weighted): 0.088218
+K val:40	Average time (unweighted): 0.103480	 Average time (weighted): 0.091827
+K val:50	Average time (unweighted): 0.123449	 Average time (weighted): 0.104954
+K val:60	Average time (unweighted): 0.148156	 Average time (weighted): 0.119014
+K val:70	Average time (unweighted): 0.227037	 Average time (weighted): 0.160486
+K val:80	Average time (unweighted): 0.244642	 Average time (weighted): 0.168763
+K val:90	Average time (unweighted): 0.271992	 Average time (weighted): 0.180414
+K val:100	Average time (unweighted): 0.291364	 Average time (weighted): 0.187581
+K val:200	Average time (unweighted): 0.503616	 Average time (weighted): 0.232191
+K val:300	Average time (unweighted): 0.837386	 Average time (weighted): 0.260253
+K val:400	Average time (unweighted): 0.919020	 Average time (weighted): 0.263221
+K val:500	Average time (unweighted): 0.957136	 Average time (weighted): 0.263647
+K val:600	Average time (unweighted): 0.995199	 Average time (weighted): 0.263801
+K val:700	Average time (unweighted): 1.039307	 Average time (weighted): 0.263868
+K val:800	Average time (unweighted): 1.081668	 Average time (weighted): 0.263891
+K val:900	Average time (unweighted): 1.114900	 Average time (weighted): 0.263898
+K val:1000	Average time (unweighted): 1.150208	 Average time (weighted): 0.263901
+K val:2000	Average time (unweighted): 1.489636	 Average time (weighted): 0.263902
+K val:3000	Average time (unweighted): 1.841931	 Average time (weighted): 0.263902
+K val:4000	Average time (unweighted): 2.184780	 Average time (weighted): 0.263902
+K val:5000	Average time (unweighted): 2.597173	 Average time (weighted): 0.263902
+K val:6000	Average time (unweighted): 2.961830	 Average time (weighted): 0.263902
+K val:7000	Average time (unweighted): 3.358478	 Average time (weighted): 0.263902
+K val:8000	Average time (unweighted): 3.716473	 Average time (weighted): 0.263902
+K val:9000	Average time (unweighted): 4.078160	 Average time (weighted): 0.263902
+K val:10000	Average time (unweighted): 4.436098	 Average time (weighted): 0.263902
+K val:11000	Average time (unweighted): 4.818418	 Average time (weighted): 0.263902
+K val:12000	Average time (unweighted): 5.154817	 Average time (weighted): 0.263902
+K val:13000	Average time (unweighted): 5.507411	 Average time (weighted): 0.263902
+K val:14000	Average time (unweighted): 5.853338	 Average time (weighted): 0.263902
+K val:15000	Average time (unweighted): 6.210915	 Average time (weighted): 0.263902
+K val:17500	Average time (unweighted): 7.161912	 Average time (weighted): 0.263902
+K val:20000	Average time (unweighted): 8.034605	 Average time (weighted): 0.263902
+K val:22500	Average time (unweighted): 8.921637	 Average time (weighted): 0.263902
+K val:25000	Average time (unweighted): 9.778811	 Average time (weighted): 0.263902
+K val:30000	Average time (unweighted): 11.697875	 Average time (weighted): 0.263902
+K val:35000	Average time (unweighted): 13.423046	 Average time (weighted): 0.263902
+K val:40000	Average time (unweighted): 15.268709	 Average time (weighted): 0.263902
+K val:45000	Average time (unweighted): 17.035079	 Average time (weighted): 0.263902
+K val:50000	Average time (unweighted): 18.846399	 Average time (weighted): 0.263902
+K val:60000	Average time (unweighted): 22.569075	 Average time (weighted): 0.263902
+K val:70000	Average time (unweighted): 26.458925	 Average time (weighted): 0.263902
+K val:80000	Average time (unweighted): 30.143149	 Average time (weighted): 0.263902
+K val:90000	Average time (unweighted): 33.719324	 Average time (weighted): 0.263902
+K val:100000	Average time (unweighted): 37.368245	 Average time (weighted): 0.263902
+K val:148776	Average time (unweighted): 55.714487	 Average time (weighted): 0.263902
+	Query: select * from customer121_5, order121_5 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.027355	 Average time (weighted): 0.026136
+K val:20	Average time (unweighted): 0.042961	 Average time (weighted): 0.039551
+K val:30	Average time (unweighted): 0.054292	 Average time (weighted): 0.048131
+K val:40	Average time (unweighted): 0.112927	 Average time (weighted): 0.089962
+K val:50	Average time (unweighted): 0.133121	 Average time (weighted): 0.102676
+K val:60	Average time (unweighted): 0.147621	 Average time (weighted): 0.111089
+K val:70	Average time (unweighted): 0.171013	 Average time (weighted): 0.122872
+K val:80	Average time (unweighted): 0.192410	 Average time (weighted): 0.132914
+K val:90	Average time (unweighted): 0.210264	 Average time (weighted): 0.140516
+K val:100	Average time (unweighted): 0.214767	 Average time (weighted): 0.142261
+K val:200	Average time (unweighted): 0.513247	 Average time (weighted): 0.212908
+K val:300	Average time (unweighted): 0.750350	 Average time (weighted): 0.232724
+K val:400	Average time (unweighted): 0.896023	 Average time (weighted): 0.238154
+K val:500	Average time (unweighted): 0.944783	 Average time (weighted): 0.238676
+K val:600	Average time (unweighted): 1.049900	 Average time (weighted): 0.239208
+K val:700	Average time (unweighted): 1.092569	 Average time (weighted): 0.239274
+K val:800	Average time (unweighted): 1.131831	 Average time (weighted): 0.239296
+K val:900	Average time (unweighted): 1.171529	 Average time (weighted): 0.239303
+K val:1000	Average time (unweighted): 1.209357	 Average time (weighted): 0.239306
+K val:2000	Average time (unweighted): 1.580880	 Average time (weighted): 0.239308
+K val:3000	Average time (unweighted): 2.022130	 Average time (weighted): 0.239308
+K val:4000	Average time (unweighted): 2.374624	 Average time (weighted): 0.239308
+K val:5000	Average time (unweighted): 2.713905	 Average time (weighted): 0.239308
+K val:6000	Average time (unweighted): 3.045711	 Average time (weighted): 0.239308
+K val:7000	Average time (unweighted): 3.396053	 Average time (weighted): 0.239308
+K val:8000	Average time (unweighted): 3.787049	 Average time (weighted): 0.239308
+K val:9000	Average time (unweighted): 4.169580	 Average time (weighted): 0.239308
+K val:10000	Average time (unweighted): 4.544114	 Average time (weighted): 0.239308
+K val:11000	Average time (unweighted): 4.876469	 Average time (weighted): 0.239308
+K val:12000	Average time (unweighted): 5.224894	 Average time (weighted): 0.239308
+K val:13000	Average time (unweighted): 5.609059	 Average time (weighted): 0.239308
+K val:14000	Average time (unweighted): 5.989318	 Average time (weighted): 0.239308
+K val:15000	Average time (unweighted): 6.376413	 Average time (weighted): 0.239308
+K val:17500	Average time (unweighted): 7.130243	 Average time (weighted): 0.239308
+K val:20000	Average time (unweighted): 7.923424	 Average time (weighted): 0.239308
+K val:22500	Average time (unweighted): 8.856454	 Average time (weighted): 0.239308
+K val:25000	Average time (unweighted): 9.790852	 Average time (weighted): 0.239308
+K val:30000	Average time (unweighted): 11.620198	 Average time (weighted): 0.239308
+K val:35000	Average time (unweighted): 13.431458	 Average time (weighted): 0.239308
+K val:40000	Average time (unweighted): 15.293109	 Average time (weighted): 0.239308
+K val:45000	Average time (unweighted): 17.122194	 Average time (weighted): 0.239308
+K val:50000	Average time (unweighted): 18.721174	 Average time (weighted): 0.239308
+K val:60000	Average time (unweighted): 22.308375	 Average time (weighted): 0.239308
+K val:70000	Average time (unweighted): 26.204594	 Average time (weighted): 0.239308
+K val:80000	Average time (unweighted): 29.717173	 Average time (weighted): 0.239308
+K val:90000	Average time (unweighted): 33.334967	 Average time (weighted): 0.239308
+K val:100000	Average time (unweighted): 36.967603	 Average time (weighted): 0.239308
+K val:150000	Average time (unweighted): 56.066650	 Average time (weighted): 0.239308
+K val:160654	Average time (unweighted): 60.000076	 Average time (weighted): 0.239308
+	Query: select * from customer131_5, order131_5 where c_custkey = o_custkey;
+K val:10	Average time (unweighted): 0.063314	 Average time (weighted): 0.061455
+K val:20	Average time (unweighted): 0.075912	 Average time (weighted): 0.072319
+K val:30	Average time (unweighted): 0.083182	 Average time (weighted): 0.077907
+K val:40	Average time (unweighted): 0.092197	 Average time (weighted): 0.084339
+K val:50	Average time (unweighted): 0.104575	 Average time (weighted): 0.092476
+K val:60	Average time (unweighted): 0.119013	 Average time (weighted): 0.100985
+K val:70	Average time (unweighted): 0.131197	 Average time (weighted): 0.107080
+K val:80	Average time (unweighted): 0.140780	 Average time (weighted): 0.111600
+K val:90	Average time (unweighted): 0.144671	 Average time (weighted): 0.113280
+K val:100	Average time (unweighted): 0.164571	 Average time (weighted): 0.121230
+K val:200	Average time (unweighted): 0.414742	 Average time (weighted): 0.174545
+K val:300	Average time (unweighted): 0.595056	 Average time (weighted): 0.189854
+K val:400	Average time (unweighted): 0.793702	 Average time (weighted): 0.196007
+K val:500	Average time (unweighted): 0.871085	 Average time (weighted): 0.197086
+K val:600	Average time (unweighted): 1.024607	 Average time (weighted): 0.197556
+K val:700	Average time (unweighted): 1.055726	 Average time (weighted): 0.197604
+K val:800	Average time (unweighted): 1.095158	 Average time (weighted): 0.197625
+K val:900	Average time (unweighted): 1.130360	 Average time (weighted): 0.197633
+K val:1000	Average time (unweighted): 1.164989	 Average time (weighted): 0.197635
+K val:2000	Average time (unweighted): 1.494012	 Average time (weighted): 0.197637
+K val:3000	Average time (unweighted): 1.863564	 Average time (weighted): 0.197637
+K val:4000	Average time (unweighted): 2.220739	 Average time (weighted): 0.197637
+K val:5000	Average time (unweighted): 2.576364	 Average time (weighted): 0.197637
+K val:6000	Average time (unweighted): 2.918045	 Average time (weighted): 0.197637
+K val:7000	Average time (unweighted): 3.274308	 Average time (weighted): 0.197637
+K val:8000	Average time (unweighted): 3.625543	 Average time (weighted): 0.197637
+K val:9000	Average time (unweighted): 3.908795	 Average time (weighted): 0.197637
+K val:10000	Average time (unweighted): 4.231709	 Average time (weighted): 0.197637
+K val:11000	Average time (unweighted): 4.611535	 Average time (weighted): 0.197637
+K val:12000	Average time (unweighted): 4.964500	 Average time (weighted): 0.197637
+K val:13000	Average time (unweighted): 5.324733	 Average time (weighted): 0.197637
+K val:14000	Average time (unweighted): 5.651757	 Average time (weighted): 0.197637
+K val:15000	Average time (unweighted): 6.025441	 Average time (weighted): 0.197637
+K val:17500	Average time (unweighted): 7.061690	 Average time (weighted): 0.197637
+K val:20000	Average time (unweighted): 8.030122	 Average time (weighted): 0.197637
+K val:22500	Average time (unweighted): 8.955999	 Average time (weighted): 0.197637
+K val:25000	Average time (unweighted): 9.833767	 Average time (weighted): 0.197637
+K val:30000	Average time (unweighted): 11.507492	 Average time (weighted): 0.197637
+K val:35000	Average time (unweighted): 13.431973	 Average time (weighted): 0.197637
+K val:40000	Average time (unweighted): 15.261967	 Average time (weighted): 0.197637
+K val:45000	Average time (unweighted): 17.087210	 Average time (weighted): 0.197637
+K val:50000	Average time (unweighted): 18.990283	 Average time (weighted): 0.197637
+K val:60000	Average time (unweighted): 22.469400	 Average time (weighted): 0.197637
+K val:70000	Average time (unweighted): 26.389359	 Average time (weighted): 0.197637
+K val:80000	Average time (unweighted): 30.060717	 Average time (weighted): 0.197637
+K val:90000	Average time (unweighted): 33.575045	 Average time (weighted): 0.197637
+K val:100000	Average time (unweighted): 37.382217	 Average time (weighted): 0.197637
+K val:147710	Average time (unweighted): 55.819574	 Average time (weighted): 0.197637
+
+Average Times for val = 0 Across All Queries:
+(10, 	0.034169)	(10, 	0.032694)
+(20, 	0.046464)	(20, 	0.043042)
+(30, 	0.089771)	(30, 	0.076394)
+(40, 	0.100407)	(40, 	0.083820)
+(50, 	0.111449)	(50, 	0.090924)
+(60, 	0.125322)	(60, 	0.098983)
+(70, 	0.136414)	(70, 	0.104794)
+(80, 	0.159697)	(80, 	0.115833)
+(90, 	0.176252)	(90, 	0.122946)
+(100, 	0.186115)	(100, 	0.126684)
+(200, 	0.358194)	(200, 	0.167730)
+(300, 	0.498544)	(300, 	0.179855)
+(400, 	0.592069)	(400, 	0.183090)
+(500, 	0.635308)	(500, 	0.183578)
+(600, 	0.684259)	(600, 	0.183792)
+(700, 	0.726561)	(700, 	0.183855)
+(800, 	0.766307)	(800, 	0.183878)
+(900, 	0.800766)	(900, 	0.183885)
+(1000, 	0.832213)	(1000, 	0.183887)
+(2000, 	1.126791)	(2000, 	0.183888)
+(3000, 	1.453938)	(3000, 	0.183888)
+(4000, 	1.783148)	(4000, 	0.183888)
+(5000, 	2.087559)	(5000, 	0.183888)
+(6000, 	2.424536)	(6000, 	0.183888)
+(7000, 	2.784797)	(7000, 	0.183888)
+(8000, 	3.162725)	(8000, 	0.183888)
+(9000, 	3.543569)	(9000, 	0.183888)
+(10000, 	3.916520)	(10000, 	0.183888)
+(11000, 	4.278984)	(11000, 	0.183888)
+(12000, 	4.653014)	(12000, 	0.183888)
+(13000, 	5.033420)	(13000, 	0.183888)
+(14000, 	5.398195)	(14000, 	0.183888)
+(15000, 	5.756136)	(15000, 	0.183888)
+(17500, 	6.666893)	(17500, 	0.183888)
+(20000, 	7.558710)	(20000, 	0.183888)
+(22500, 	8.446437)	(22500, 	0.183888)
+(25000, 	9.299553)	(25000, 	0.183888)
+(30000, 	11.132828)	(30000, 	0.183888)
+(35000, 	12.812249)	(35000, 	0.183888)
+(40000, 	14.637858)	(40000, 	0.183888)
+(45000, 	16.464701)	(45000, 	0.183888)
+(50000, 	18.222469)	(50000, 	0.183888)
+(60000, 	21.861114)	(60000, 	0.183888)
+(70000, 	25.533846)	(70000, 	0.183888)
+(80000, 	29.161005)	(80000, 	0.183888)
+(90000, 	32.756839)	(90000, 	0.183888)
+(100000, 	36.302506)	(100000, 	0.183888)
+(150000, 	54.975538)	(150000, 	0.181158)
+(200000, 	0.000000)	(200000, 	0.000000)
+
+Average Times for val = 1 Across All Queries:
+(10, 	0.025699)	(10, 	0.024422)
+(20, 	0.050314)	(20, 	0.045710)
+(30, 	0.059520)	(30, 	0.052762)
+(40, 	0.073040)	(40, 	0.062467)
+(50, 	0.088187)	(50, 	0.072220)
+(60, 	0.099413)	(60, 	0.078537)
+(70, 	0.106058)	(70, 	0.081969)
+(80, 	0.125111)	(80, 	0.090984)
+(90, 	0.129636)	(90, 	0.092864)
+(100, 	0.143214)	(100, 	0.098167)
+(200, 	0.300308)	(200, 	0.133854)
+(300, 	0.471534)	(300, 	0.148302)
+(400, 	0.574444)	(400, 	0.151721)
+(500, 	0.614578)	(500, 	0.152171)
+(600, 	0.651437)	(600, 	0.152325)
+(700, 	0.687632)	(700, 	0.152380)
+(800, 	0.729834)	(800, 	0.152403)
+(900, 	0.766610)	(900, 	0.152411)
+(1000, 	0.802628)	(1000, 	0.152413)
+(2000, 	1.151406)	(2000, 	0.152415)
+(3000, 	1.486689)	(3000, 	0.152415)
+(4000, 	1.837083)	(4000, 	0.152415)
+(5000, 	2.186190)	(5000, 	0.152415)
+(6000, 	2.526951)	(6000, 	0.152415)
+(7000, 	2.879561)	(7000, 	0.152415)
+(8000, 	3.276136)	(8000, 	0.152415)
+(9000, 	3.618329)	(9000, 	0.152415)
+(10000, 	3.973281)	(10000, 	0.152415)
+(11000, 	4.307633)	(11000, 	0.152415)
+(12000, 	4.678094)	(12000, 	0.152415)
+(13000, 	5.035218)	(13000, 	0.152415)
+(14000, 	5.342629)	(14000, 	0.152415)
+(15000, 	5.695059)	(15000, 	0.152415)
+(17500, 	6.556395)	(17500, 	0.152415)
+(20000, 	7.422132)	(20000, 	0.152415)
+(22500, 	8.285063)	(22500, 	0.152415)
+(25000, 	9.162387)	(25000, 	0.152415)
+(30000, 	10.981267)	(30000, 	0.152415)
+(35000, 	12.761361)	(35000, 	0.152415)
+(40000, 	14.548342)	(40000, 	0.152415)
+(45000, 	16.304039)	(45000, 	0.152415)
+(50000, 	18.008890)	(50000, 	0.152415)
+(60000, 	21.544441)	(60000, 	0.152415)
+(70000, 	25.282555)	(70000, 	0.152415)
+(80000, 	28.779062)	(80000, 	0.152415)
+(90000, 	32.345267)	(90000, 	0.152415)
+(100000, 	35.990790)	(100000, 	0.152415)
+(150000, 	54.616521)	(150000, 	0.209554)
+(200000, 	0.000000)	(200000, 	0.000000)
+
+Average Times for val = 1_5 Across All Queries:
+(10, 	0.048480)	(10, 	0.046629)
+(20, 	0.067117)	(20, 	0.062626)
+(30, 	0.078641)	(30, 	0.071419)
+(40, 	0.102868)	(40, 	0.088709)
+(50, 	0.120382)	(50, 	0.100035)
+(60, 	0.138264)	(60, 	0.110363)
+(70, 	0.176416)	(70, 	0.130146)
+(80, 	0.192610)	(80, 	0.137759)
+(90, 	0.208976)	(90, 	0.144737)
+(100, 	0.223567)	(100, 	0.150358)
+(200, 	0.477202)	(200, 	0.206548)
+(300, 	0.727597)	(300, 	0.227610)
+(400, 	0.869582)	(400, 	0.232461)
+(500, 	0.924335)	(500, 	0.233136)
+(600, 	1.023235)	(600, 	0.233522)
+(700, 	1.062534)	(700, 	0.233582)
+(800, 	1.102886)	(800, 	0.233604)
+(900, 	1.138930)	(900, 	0.233611)
+(1000, 	1.174851)	(1000, 	0.233614)
+(2000, 	1.521509)	(2000, 	0.233616)
+(3000, 	1.909208)	(3000, 	0.233616)
+(4000, 	2.260048)	(4000, 	0.233616)
+(5000, 	2.629148)	(5000, 	0.233616)
+(6000, 	2.975195)	(6000, 	0.233616)
+(7000, 	3.342946)	(7000, 	0.233616)
+(8000, 	3.709688)	(8000, 	0.233616)
+(9000, 	4.052178)	(9000, 	0.233616)
+(10000, 	4.403973)	(10000, 	0.233616)
+(11000, 	4.768807)	(11000, 	0.233616)
+(12000, 	5.114737)	(12000, 	0.233616)
+(13000, 	5.480401)	(13000, 	0.233616)
+(14000, 	5.831471)	(14000, 	0.233616)
+(15000, 	6.204257)	(15000, 	0.233616)
+(17500, 	7.117948)	(17500, 	0.233616)
+(20000, 	7.996050)	(20000, 	0.233616)
+(22500, 	8.911363)	(22500, 	0.233616)
+(25000, 	9.801143)	(25000, 	0.233616)
+(30000, 	11.608522)	(30000, 	0.233616)
+(35000, 	13.428826)	(35000, 	0.233616)
+(40000, 	15.274595)	(40000, 	0.233616)
+(45000, 	17.081494)	(45000, 	0.233616)
+(50000, 	18.852619)	(50000, 	0.233616)
+(60000, 	22.448950)	(60000, 	0.233616)
+(70000, 	26.350959)	(70000, 	0.233616)
+(80000, 	29.973680)	(80000, 	0.233616)
+(90000, 	33.543112)	(90000, 	0.233616)
+(100000, 	37.239355)	(100000, 	0.233616)
+(150000, 	56.066650)	(150000, 	0.239308)
+(200000, 	0.000000)	(200000, 	0.000000)

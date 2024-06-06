@@ -1,0 +1,9 @@
+2024-06-05 22:02:47.426 PDT [634348] FATAL:  lock file "postmaster.pid" already exists
+2024-06-05 22:02:47.426 PDT [634348] HINT:  Is another postmaster (PID 595226) running in data directory "/nfs/stak/users/linyuya/CS549_osl/Join-Game/DemoDir"?
+2024-06-05 22:05:39.891 PDT [638404] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 22:05:39.891 PDT [638404] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 22:05:39.894 PDT [638404] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 22:05:39.971 PDT [638415] LOG:  database system was shut down at 2024-06-05 22:05:10 PDT
+2024-06-05 22:05:39.998 PDT [638404] LOG:  database system is ready to accept connections
+2024-06-05 22:07:07.007 PDT [638680] WARNING:  TupleDesc reference leak: TupleDesc 0x7fb5848573e8 (41100,-1) still referenced
+2024-06-05 22:07:07.007 PDT [638680] WARNING:  TupleDesc reference leak: TupleDesc 0x7fb5848573e8 (41100,-1) still referenced
