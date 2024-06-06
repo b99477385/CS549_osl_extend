@@ -120,15 +120,15 @@ def measureTimeForKs(conn, joinQuery, ks, sigma, data_filename, iteration):
         cur.execute('set enable_material=off;')
         cur.execute('set max_parallel_workers_per_gather=0;')
         cur.execute('set enable_hashjoin=off;')
-        cur.execute('set enable_mergejoin=off;')
+        cur.execute('set enable_mergejoin=on;')
         cur.execute('set enable_indexonlyscan=off;')
         cur.execute('set enable_indexscan=off;')
-        cur.execute('set enable_block=off;')
+        cur.execute('set enable_block=on;')
         cur.execute('set enable_bitmapscan=off;')
         cur.execute('set enable_fastjoin=off;')
         cur.execute('set enable_seqscan=off;')
         cur.execute('set enable_fliporder=off;')
-        cur.execute('set enable_nestloop=on;')
+        cur.execute('set enable_nestloop=off;')
         # cur.execute('set work_mem = "64kB";')
         cur.execute('set statement_timeout = 1800000;') #1800000 = 30 mins
         
