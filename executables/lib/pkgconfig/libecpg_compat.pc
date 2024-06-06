@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 11.5
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/nfs/stak/users/linyuya/CS549_osl/executables/include
+Libs: -L/nfs/stak/users/linyuya/CS549_osl/executables/lib -lecpg_compat
+Libs.private:  -lm

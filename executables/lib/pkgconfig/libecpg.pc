@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 11.5
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/nfs/stak/users/linyuya/CS549_osl/executables/include
+Libs: -L/nfs/stak/users/linyuya/CS549_osl/executables/lib -lecpg
+Libs.private:  -lm
