@@ -42,10 +42,21 @@ port = xxxx (/* xxxx is new port number to be used*/)
 
 psql -p xxxx template1
 (/* xxxx – is your port number*/)
+
 $ psql >> create database xxxxx;	
+
 /*xxxxx is your ONID or something which you want to name your database */
+
 $ psql >> create database tpch;
+
 $ \q
+
+
+### 9 Modify script_full_load_bharghav.py according to the database setting (line 12) and the path to the 1gigi dataset( line 23 ) then run
+
+python script_full_load_bharghav.py
+
+
 
 
 
