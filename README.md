@@ -23,8 +23,9 @@ cd Join-Game
 
 ### 4 open the startserver.sh in Join-Game folder and modify the following command according to your path ( use pwd can show the path in linux)
 
-export PATH=/nfs/stak/users/xxxxx/research/executables/bin:$PATH
-(/* xxxxx – is your ONID*/)
+export PATH=/nfs/stak/users/xxxxx/xxxx/executables/bin:$PATH
+(/* xxxxx – is your ONID*/ , xxxx is your folder name)
+/nfs/stak/users/xxxxx/xxxx/executables/bin/pg_ctl -D /nfs/stak/users/xxxxx/xxxx/Join-Game/DemoDir -o "-p 1208" -l logfile start
 
 ### 5 run bash
 
@@ -55,6 +56,12 @@ $ \q
 ### 9 Modify script_full_load_bharghav.py according to the database setting (line 12) and the path to the 1gigi dataset( line 23 ) then run
 
 python script_full_load_bharghav.py
+
+
+### 10 Run test script
+bash 
+
+
 
 
 
