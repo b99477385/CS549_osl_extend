@@ -129,7 +129,7 @@ def measureTimeForKs(conn, joinQuery, ks, sigma, data_filename, iteration):
         cur.execute('set enable_seqscan=off;')
         cur.execute('set enable_fliporder=off;')
         cur.execute('set enable_nestloop=on;')
-        cur.execute('set work_mem = "64kB";')
+        # cur.execute('set work_mem = "64kB";')
         cur.execute('set statement_timeout = 1800000;') #1800000 = 30 mins
         
         # Log start of test run

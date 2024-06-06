@@ -238,7 +238,7 @@ seedToExploitLeftPage(PlanState *pstate){
 			node->nl_NeedNewOuter = true;
 			outerPlan->oslBnd8_currExploreTupleFailureCount = 0;
 			outerPlan->oslBnd8RightTableCacheHead = 0;
-			if(outerPlan->oslBnd8_currExploreTupleReward>0){
+			if(outerPlan->oslBnd8_currExploreTupleReward>=0){
 				// Allocate Memory if it has not been allocated
 				if(DEBUG_FLAG){elog(INFO, "outerPlan->pgNst8LeftPageHead: %u", outerPlan->pgNst8LeftPageHead);}
 				if(DEBUG_FLAG){elog(INFO, "Match Found, Adding it to the LEft Page, num_tuples_explored: %u", outerPlan->oslBnd8_numTuplesExplored);}

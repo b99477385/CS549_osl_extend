@@ -540,3 +540,57 @@
 2024-05-30 15:54:52.945 PDT [477722] LOG:  background worker "logical replication launcher" (PID 477743) exited with exit code 1
 2024-05-30 15:54:52.945 PDT [477738] LOG:  shutting down
 2024-05-30 15:54:53.012 PDT [477722] LOG:  database system is shut down
+2024-06-05 22:27:47.333 PDT [658881] FATAL:  lock file "postmaster.pid" already exists
+2024-06-05 22:27:47.333 PDT [658881] HINT:  Is another postmaster (PID 638404) running in data directory "/nfs/stak/users/linyuya/CS549_osl/Join-Game/DemoDir"?
+2024-06-05 22:28:22.684 PDT [660478] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 22:28:22.684 PDT [660478] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 22:28:22.687 PDT [660478] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 22:28:22.725 PDT [660479] LOG:  database system was shut down at 2024-06-05 22:28:00 PDT
+2024-06-05 22:28:22.738 PDT [660478] LOG:  database system is ready to accept connections
+2024-06-05 22:38:15.075 PDT [669066] FATAL:  lock file "postmaster.pid" already exists
+2024-06-05 22:38:15.075 PDT [669066] HINT:  Is another postmaster (PID 660478) running in data directory "/nfs/stak/users/linyuya/CS549_osl/Join-Game/DemoDir"?
+2024-06-05 22:38:40.371 PDT [660478] LOG:  received fast shutdown request
+2024-06-05 22:38:40.373 PDT [660478] LOG:  aborting any active transactions
+2024-06-05 22:38:40.374 PDT [660478] LOG:  background worker "logical replication launcher" (PID 660485) exited with exit code 1
+2024-06-05 22:38:40.374 PDT [660480] LOG:  shutting down
+2024-06-05 22:38:40.424 PDT [660478] LOG:  database system is shut down
+2024-06-05 22:39:10.289 PDT [671822] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 22:39:10.289 PDT [671822] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 22:39:10.294 PDT [671822] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 22:39:10.327 PDT [671823] LOG:  database system was shut down at 2024-06-05 22:38:40 PDT
+2024-06-05 22:39:10.340 PDT [671822] LOG:  database system is ready to accept connections
+2024-06-05 22:40:55.859 PDT [671822] LOG:  received fast shutdown request
+2024-06-05 22:40:55.861 PDT [671822] LOG:  aborting any active transactions
+2024-06-05 22:40:55.862 PDT [671822] LOG:  background worker "logical replication launcher" (PID 671829) exited with exit code 1
+2024-06-05 22:40:55.862 PDT [671824] LOG:  shutting down
+2024-06-05 22:40:55.914 PDT [671822] LOG:  database system is shut down
+2024-06-05 22:41:40.140 PDT [675396] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 22:41:40.140 PDT [675396] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 22:41:40.143 PDT [675396] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 22:41:40.176 PDT [675399] LOG:  database system was shut down at 2024-06-05 22:40:55 PDT
+2024-06-05 22:41:40.189 PDT [675396] LOG:  database system is ready to accept connections
+2024-06-05 22:42:09.747 PDT [675396] LOG:  received fast shutdown request
+2024-06-05 22:42:09.749 PDT [675396] LOG:  aborting any active transactions
+2024-06-05 22:42:09.750 PDT [675396] LOG:  background worker "logical replication launcher" (PID 675405) exited with exit code 1
+2024-06-05 22:42:09.750 PDT [675400] LOG:  shutting down
+2024-06-05 22:42:09.806 PDT [675396] LOG:  database system is shut down
+2024-06-05 22:43:34.460 PDT [682897] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 22:43:34.460 PDT [682897] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 22:43:34.465 PDT [682897] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 22:43:34.498 PDT [682898] LOG:  database system was shut down at 2024-06-05 22:42:09 PDT
+2024-06-05 22:43:34.506 PDT [682897] LOG:  database system is ready to accept connections
+2024-06-05 22:54:20.075 PDT [682897] LOG:  received fast shutdown request
+2024-06-05 22:54:20.077 PDT [682897] LOG:  aborting any active transactions
+2024-06-05 22:54:20.078 PDT [682897] LOG:  background worker "logical replication launcher" (PID 682904) exited with exit code 1
+2024-06-05 22:54:20.078 PDT [682899] LOG:  shutting down
+2024-06-05 22:54:20.129 PDT [682897] LOG:  database system is shut down
+2024-06-05 22:54:42.240 PDT [692577] LOG:  listening on IPv6 address "::1", port 1208
+2024-06-05 22:54:42.240 PDT [692577] LOG:  listening on IPv4 address "127.0.0.1", port 1208
+2024-06-05 22:54:42.243 PDT [692577] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1208"
+2024-06-05 22:54:42.270 PDT [692578] LOG:  database system was shut down at 2024-06-05 22:54:20 PDT
+2024-06-05 22:54:42.280 PDT [692577] LOG:  database system is ready to accept connections
+2024-06-05 23:03:35.345 PDT [692577] LOG:  received fast shutdown request
+2024-06-05 23:03:35.348 PDT [692577] LOG:  aborting any active transactions
+2024-06-05 23:03:35.349 PDT [692577] LOG:  background worker "logical replication launcher" (PID 692584) exited with exit code 1
+2024-06-05 23:03:35.349 PDT [692579] LOG:  shutting down
+2024-06-05 23:03:35.393 PDT [692577] LOG:  database system is shut down

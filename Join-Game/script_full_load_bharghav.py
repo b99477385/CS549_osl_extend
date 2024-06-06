@@ -9,7 +9,7 @@ def main():
     zvals = ['0', '1', '1_5']
     shuffles = ['1', '2', '3']
     # Open connection
-    conn = psycopg2.connect(host="/tmp/", database="script_test", user="linyuya",
+    conn = psycopg2.connect(host="/tmp/", database="script_test1", user="linyuya",
                              port="1208")
     cur = conn.cursor()
     # If only one argument, clean is provided, drop and remake tables, then exit
