@@ -59,11 +59,15 @@ python script_full_load_bharghav.py
 
 
 ### 10 Run test script
-bash 
+
+bash bash_1gig_osl.sh
+
+### 11 Stop the Postgre
+
+/nfs/stak/users/xxxxx/xxxx/executables/bin/pg_ctl -D /nfs/stak/users/xxxxx/xxxx/Join-Game/DemoDir -o "-p yyyy" -l logfile stop
 
 
-
-
+(/* xxxxx – is your ONID*/ , xxxx is your folder name, yyyy is the port)
 
 
 
